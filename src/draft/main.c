@@ -2,26 +2,77 @@
 
 int main (int argc, char *argv[]) {
 
-  GtkWidget *window, *table, *entry;
+  GtkWidget *window, *table, *entry, *grid, *combo, *frame;
 
   gtk_init(&argc, &argv);
 
   /* Creates main window */
   window = gtk_window_new(GTK_WINDOW_TOPLEVEL);
   initialize_window(window);
-  gtk_widget_show(window);
   
 
-  /* Creates a 1x2 table */
+  /* Creates a 1x1 table and attaches a textbox on it */
   table = gtk_table_new(1, 1, TRUE);
-  gtk_container_add(GTK_CONTAINER (window), table);
-  gtk_widget_show(table);
-
-  /* Creates a textbox */
   entry = gtk_entry_new();
   gtk_entry_set_max_length(GTK_ENTRY (entry),0);
-  gtk_table_attach_defaults(GTK_TABLE (table),entry, 0, 1, 0, 1);
-  gtk_widget_show(entry); 
+  gtk_table_attach_defaults(GTK_TABLE (table),entry, 0, 1, 0, 1); 
+
+
+  /* Creates a combobox */
+  combo = gtk_combo_box_text_new();
+  gtk_combo_box_text_append( GTK_COMBO_BOX_TEXT( combo ), "0", "" );
+  gtk_combo_box_text_append( GTK_COMBO_BOX_TEXT( combo ), "1", "Velvet" );
+  gtk_combo_box_text_append( GTK_COMBO_BOX_TEXT( combo ), "2", "Joy Division" );
+  gtk_combo_box_text_append( GTK_COMBO_BOX_TEXT( combo ), "3", "Jesus and Mary Chain" );
+  gtk_combo_box_text_append( GTK_COMBO_BOX_TEXT( combo ), "4", "My Bloody Valentine" );
+
+  /* Puts the combobox in a frame */
+  frame = gtk_frame_new("Favorite Bands");
+  gtk_container_add(GTK_CONTAINER(frame), combo);
+
+  /* Creates a grid */
+  grid = gtk_grid_new ();
+  gtk_container_add(GTK_CONTAINER(window), grid);
+
+  /* And adds the table */
+  gtk_grid_attach(GTK_GRID(grid), table, 0, 0, 3, 1);
+
+  /* And adds the frame */
+  gtk_grid_attach(GTK_GRID(grid), frame, 0, 1, 1, 1);
+
+ /* Creates another combobox */
+  combo = gtk_combo_box_text_new();
+  gtk_combo_box_text_append( GTK_COMBO_BOX_TEXT( combo ), "0", "" );
+  gtk_combo_box_text_append( GTK_COMBO_BOX_TEXT( combo ), "1", "Mexican" );
+  gtk_combo_box_text_append( GTK_COMBO_BOX_TEXT( combo ), "2", "Chinese" );
+  gtk_combo_box_text_append( GTK_COMBO_BOX_TEXT( combo ), "3", "Japanese" );
+  gtk_combo_box_text_append( GTK_COMBO_BOX_TEXT( combo ), "4", "Italian" );
+
+  /* Puts the combobox in a frame */
+  frame = gtk_frame_new("Favorite Foods");
+  gtk_container_add(GTK_CONTAINER(frame), combo);
+
+  /* And adds new frame to grid */
+  gtk_grid_attach(GTK_GRID(grid), frame, 1, 1, 1, 1);
+
+ /* Creates another combobox */
+  combo = gtk_combo_box_text_new();
+  gtk_combo_box_text_append( GTK_COMBO_BOX_TEXT( combo ), "0", "" );
+  gtk_combo_box_text_append( GTK_COMBO_BOX_TEXT( combo ), "1", "Dekalog" );
+  gtk_combo_box_text_append( GTK_COMBO_BOX_TEXT( combo ), "2", "Cleo de 5 a 7" );
+  gtk_combo_box_text_append( GTK_COMBO_BOX_TEXT( combo ), "3", "Acossado" );
+  gtk_combo_box_text_append( GTK_COMBO_BOX_TEXT( combo ), "4", "Magnolia" );
+
+  /* Puts the combobox in a frame */
+  frame = gtk_frame_new("Favorite Movies");
+  gtk_container_add(GTK_CONTAINER(frame), combo);
+
+  /* And adds new frame to grid */
+  gtk_grid_attach(GTK_GRID(grid), frame, 2, 1, 1, 1);
+
+
+  /* Shows all widgets recursively */
+  gtk_widget_show_all(window); 
   gtk_main();
   return 0;
 }
