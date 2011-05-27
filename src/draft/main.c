@@ -13,7 +13,7 @@ int main (int argc, char *argv[]) {
   
 
   /* Creates a 1x2 table */
-  table = gtk_table_new(1, 2, TRUE);
+  table = gtk_table_new(1, 1, TRUE);
   gtk_container_add(GTK_CONTAINER (window), table);
   gtk_widget_show(table);
 
