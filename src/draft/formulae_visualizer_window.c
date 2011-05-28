@@ -1,4 +1,4 @@
-#include "formulae_textbox_widget.h"
+#include "formulae_visualizer_window.h"
 
 void initialize_window(GtkWidget *window) {
   gtk_window_set_title(GTK_WINDOW(window),"Formulae Textbox Widget");
