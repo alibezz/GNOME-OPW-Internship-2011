@@ -1,5 +1,4 @@
 #include "formulae_textbox_widget.h"
-#include <string.h>
 #define BUFFER_MAX_LENGTH 3000
 
 static void combo_changed( GtkComboBoxText *combo, GtkEntryBuffer *buffer) {
@@ -49,7 +48,7 @@ int main (int argc, char *argv[]) {
   grid = gtk_grid_new ();
   gtk_container_add(GTK_CONTAINER(window), grid);
 
-  /* Creates a text entry and adds to grid */
+  /* Creates a text entry and attaches to grid */
   entry = new_entry_with_buffer(NULL, 0); 
   GtkEntryBuffer *buffer = gtk_entry_get_buffer((GtkEntry *)entry);
   gtk_grid_attach(GTK_GRID(grid), entry, 0, 0, 3, 1);
@@ -74,7 +73,6 @@ int main (int argc, char *argv[]) {
   frame = gtk_frame_new("Favorite Movies");
   gtk_container_add(GTK_CONTAINER(frame), combo3);
   gtk_grid_attach(GTK_GRID(grid), frame, 2, 1, 1, 1);
-
 
   /* Shows all widgets recursively */
   gtk_widget_show_all(window); 
