@@ -13,5 +13,10 @@ GtkWidget *new_combo_box_with_text(const gchar *text1, const gchar *text2, const
   gtk_combo_box_text_append( GTK_COMBO_BOX_TEXT( combo ), "1", text2 );
   gtk_combo_box_text_append( GTK_COMBO_BOX_TEXT( combo ), "2", text3 );
 
+  AtkObject *obj;
+  obj = gtk_widget_get_accessible(combo);
+  atk_object_set_name(obj, "Preferences");
+  atk_object_set_description(obj, "My preferences");
+
   return combo;
 }
