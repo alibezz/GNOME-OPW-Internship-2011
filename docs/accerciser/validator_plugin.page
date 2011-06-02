@@ -23,4 +23,27 @@
     </license>
   </info>
   <title><app>Accerciser</app> validator default plugin</title>
+  <p>
+    The <app>Accerciser</app> validator default plugin, namely Validator AT-SPI,
+    generates a report with accessibility issues that a target application may
+    not be treating adequately. The report lists the errors including their severity
+    and a brief description.
+  </p>
+    
+Accerciser also
+has a validation plugin that can produce an interactive report listing potential a11y issues.
+This plugin checks the problems of accessibility of applications and generates a report
+including the severity and description of problems. The report links the errors found in the
+program with the most likely solution, according to documentation. Complement is
+extensible to test patterns that define validation rules.
+To run the Validator, select an item in the tree of accessibility. The plugin will check the
+selected item and all its descendants. Then you have to select a scheme to use for
+verification. Then press the Validate button to start the check. Press the button again while
+it is running the procedure to cancel it.
+The board report will display the severity and description of all errors when testing is
+complete. Double-click on a table row to display the associated accessible element in the
+tree. With an item selected, click the Help button for information about how to solve the
+problem.
+
+  </p>
 </page>
