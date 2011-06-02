@@ -22,4 +22,29 @@
     </license>
   </info>
   <title><app>Accerciser</app> Plugin Architecture</title>
+  <p>
+    <app>Accerciser</app> has a simple, extensible plugin architecture.
+    Actually, <app>Accerciser</app> itself has a fairly small core. Most
+    of its features are part of its default plugins.
+  </p>
+  <p> 
+    Since <app>Accerciser</app> is easy to extend, a user with a specific
+    test case that can't be investigated with the default plugins could
+    quickly create his own plugin to provide the needed controls and
+    information. See more about how to write a plugin for <app>Accerciser</app>
+    here (PENDING: Link to section How to write a plugin).
+  </p>
+  <p>
+    In the following sections we will review some of <app>Accerciser</app>'s
+    default plugins: 
+  </p>
+  <list> 
+    <item><p>Interface viewer</p></item>  
+    <item><p>Event monitor</p></item>  
+    <item><p>iPython console</p></item>
+    <item><p>API browser</p></item>
+  </list>
+  <p>
+    PENDING: Put link to sections
+  </p>
 </page>

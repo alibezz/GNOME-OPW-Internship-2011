@@ -153,6 +153,8 @@
       
         globally enable accessibilty /
         single application by setting GTK_MODULES=canberra-gtk-module:gail:atk-bridge
+       +++ Don't forget to say that you need to run accerciser *and* the target
+       app to examine it.
       </p>
     </section>
 </page>
