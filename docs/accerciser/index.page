@@ -1,0 +1,64 @@
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="index">
+  <info>
+    <title type="text">Accerciser</title>
+    <title type="link">Introduction to <app>Accerciser</app></title>
+    <credit type="author">
+      <name>Eitan Isaacson</name>
+      <email>eitan@ascender.com</email>
+    </credit>
+    <credit type="author">
+      <name>Peter Parente</name>
+      <email>pparent@us.ibm.com</email>
+    </credit>
+    <credit type="author">
+      <name>Aline Bessa</name>
+      <email>alibezz@gmail.com</email>
+    </credit>
+    <license>
+      <p>Creative Commons Share Alike 3.0</p>
+    </license>
+  </info>
+  <title>
+    <media type="image" mime="image/png" src="figures/accerciser-logo.png">
+      <app>Accerciser</app>'s logo
+    </media>
+    <app>Accerciser</app>
+  </title>
+  <note style="important">
+    <title>Before You Begin</title>
+    <p>
+      Read the <link href="ghelp:gnome-help#a11y">Universal Access Help</link>
+    </p>
+  </note>
+  <section id="getting_started" style="2column">
+    <title>Getting started</title>
+  </section>
+  <section id="exploring" style="2column">
+    <title>Exploring the accessibility hierarchy</title>
+  </section>
+  <section id="validator" style="2column">
+    <title>Using validators </title>
+  </section>
+  <section id="interface_viewer" style="2column">
+    <title>Using the interface viewer</title>
+  </section>
+  <section id="event_monitor" style="2column">
+    <title>Using the event monitor</title>
+  </section>  
+  <section id="iPython_console" style="2column">
+    <title>Using the iPython console</title>
+  </section>
+  <section id="api_browser" style="2column">
+    <title>Using the API Browser</title>
+  </section>
+  <section id="customizing" style="2column">
+    <title>Customizing Accerciser</title>
+  </section>
+  <section id="extending" style="2column">
+    <title>Extending Accerciser</title>
+  </section>
+  <section id="faq" style="2column">
+    <title>FAQ</title>
+  </section>
+
+</page>

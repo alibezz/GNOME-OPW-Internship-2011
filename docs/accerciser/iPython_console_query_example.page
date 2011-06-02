@@ -1,0 +1,25 @@
+<page xmlns="http://projectmallard.org/1.0/" type="topic" id="iPython_console_query_example">
+  <info>
+    <link type="guide" xref="index#iPython_console" />
+    <title type="sort">2. A query example</title>
+    <desc>
+      Example to query text interface
+    </desc>
+    <credit type="author">
+      <name>Eitan Isaacson</name>
+      <email>eitan@ascender.com</email>
+    </credit>
+    <credit type="author">
+      <name>Peter Parente</name>
+      <email>pparent@us.ibm.com</email>
+    </credit>
+    <credit type="author">
+      <name>Aline Bessa</name>
+      <email>alibezz@gmail.com</email>
+    </credit>
+    <license>
+      <p>Creative Commons Share Alike 3.0</p>
+    </license>
+  </info>
+  <title>A query example</title>
+</page>

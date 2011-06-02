@@ -1,0 +1,64 @@
+<page xmlns="http://projectmallard.org/1.0/" type="topic" id="introduction">
+  <info>
+    <link type="guide" xref="index#getting_started" />
+    <link type="next" xref="howto_setting_up_accerciser" />
+    <title type="sort">1. What is Accerciser?</title>
+    <desc>
+      Introducing <app>Accerciser</app>
+    </desc>
+    <credit type="author">
+      <name>Eitan Isaacson</name>
+      <email>eitan@ascender.com</email>
+    </credit>
+    <credit type="author">
+      <name>Peter Parente</name>
+      <email>pparent@us.ibm.com</email>
+    </credit>
+    <credit type="author">
+      <name>Aline Bessa</name>
+      <email>alibezz@gmail.com</email>
+    </credit>
+    <license>
+      <p>Creative Commons Share Alike 3.0</p>
+    </license>
+  </info>
+  <title>What is Accerciser?</title>
+  <p>
+    <app>Accerciser</app> is an interactive Python accessibility explorer for
+    the GNOME desktop. It uses AT-SPI to inspect and control widgets, allowing
+    you to check if an application is providing correct information to assistive
+    technologies and automated test frameworks. Accerciser has a simple plugin
+    framework which you can use to create custom views of accessibility information.  
+  </p>
+
+  <section id="more_about_gnome_accessibility">
+    <title>How do I find out more about GNOME Accessibility?</title>
+    <p>In GNOME, accessibility is a core value that touches all aspects
+       of the system. Here is a list with some documents where you can
+       learn more about it:  
+    </p>
+    <list>
+      <item>
+        <p>
+          <link href="http://library.gnome.org/users/gnome-access-guide/stable/">GNOME Desktop Accessibility Guide</link>
+          This is a guide for anyone who is interested in how GNOME Desktop
+          supports people with disabilities from an end user point of view.
+        </p>
+      </item>
+      <item>
+        <p>
+          <link href="http://developer.gnome.org/accessibility-devel-guide/stable/">GNOME Accessibility Developer's Guide</link>
+          This is a guide for developers who want to ensure their applications are accessible to the widest audience of users. 
+        </p>
+      </item>
+      <item>
+        <p>
+          <link href="http://projects.gnome.org/accessibility/">GNOME Accessibility Web Page</link>
+          The GNOME Accessibility Web Page includes the guides listed above along with many other useful links
+          for users, developers and system administrators.
+        </p>
+      </item>
+    </list>
+  </section>
+
+</page>

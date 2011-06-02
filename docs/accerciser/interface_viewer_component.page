@@ -1,0 +1,25 @@
+<page xmlns="http://projectmallard.org/1.0/" type="topic" id="interface_viewer_component">
+  <info>
+    <link type="guide" xref="index#interface_viewer" />
+    <title type="sort">1. Interface Viewer Component Option</title>
+    <desc>
+      Introducing the interface viewer "Component" option
+    </desc>
+    <credit type="author">
+      <name>Eitan Isaacson</name>
+      <email>eitan@ascender.com</email>
+    </credit>
+    <credit type="author">
+      <name>Peter Parente</name>
+      <email>pparent@us.ibm.com</email>
+    </credit>
+    <credit type="author">
+      <name>Aline Bessa</name>
+      <email>alibezz@gmail.com</email>
+    </credit>
+    <license>
+      <p>Creative Commons Share Alike 3.0</p>
+    </license>
+  </info>
+  <title>"Component" option</title>
+</page>

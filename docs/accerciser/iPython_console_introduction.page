@@ -1,0 +1,29 @@
+<page xmlns="http://projectmallard.org/1.0/" type="topic" id="iPython_console_introduction">
+  <info>
+    <link type="guide" xref="index#iPython_console" />
+    <title type="sort">1. How does the iPython console work?</title>
+    <link type="next" xref="iPython_console_query_example" />
+    <desc>
+      Introducing the iPython console
+    </desc>
+    <credit type="author">
+      <name>Eitan Isaacson</name>
+      <email>eitan@ascender.com</email>
+    </credit>
+    <credit type="author">
+      <name>Peter Parente</name>
+      <email>pparent@us.ibm.com</email>
+    </credit>
+    <credit type="author">
+      <name>Aline Bessa</name>
+      <email>alibezz@gmail.com</email>
+    </credit>
+    <license>
+      <p>Creative Commons Share Alike 3.0</p>
+    </license>
+  </info>
+  <title>How does the iPython console work?</title>
+    <p>
+      PENDING: Link to the iPython docs
+    </p>
+</page>

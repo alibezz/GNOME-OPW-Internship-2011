@@ -1,0 +1,158 @@
+<page xmlns="http://projectmallard.org/1.0/" type="topic" id="howto_setting_up_accerciser">
+<info>
+  <link type="guide" xref="index#getting_started" />
+  <link type="next" xref="who_might_use_accerciser" />
+  <title type="sort">2. How to install and run <app>Accerciser</app></title>
+  <title type="link">Setting <app>Accerciser</app></title>
+    <desc>
+      How to install and run <app>Accerciser</app> on your system
+    </desc>
+    <credit type="author">
+      <name>Eitan Isaacson</name>
+      <email>eitan@ascender.com</email>
+    </credit>
+    <credit type="author">
+      <name>Peter Parente</name>
+      <email>pparent@us.ibm.com</email>
+    </credit>
+    <credit type="author">
+      <name>Aline Bessa</name>
+      <email>alibezz@gmail.com</email>
+    </credit>
+    <license>
+      <p>Creative Commons Share Alike 3.0</p>
+    </license>
+  </info>
+  <title>How to install and run <app>Accerciser</app></title>
+
+    <p>
+      Check if your distribution has <app>Accerciser</app> already packaged.
+      If this is the case, you can install it via its package manager. Otherwise,
+      you can follow the section below to install <app>Accerciser</app> manually.  
+    </p>
+
+    <section id="installing_accerciser_manually">
+      <title>Installing <app>Accerciser</app> manually</title>
+       <p>
+        To install <app>Accerciser</app> manually, you will need to download it first. The most recent development
+        release of <app>Accerciser</app> is version 1.12.x. Click <link href="http://ftp.gnome.org/pub/GNOME/sources/accerciser/1.12/">here</link>
+        to download it. Alternatively, you can get the current trunk using the following command:
+      </p>
+      
+ 
+      <p><cmd>git clone git://git.gnome.org/accerciser</cmd></p>
+      <p>
+        After getting <app>Accerciser</app>, install it using the following commands:
+      </p>
+      <steps>
+        <item><p><cmd>cd accerciser</cmd></p></item>
+        <item><p><cmd>./autogen.sh # or ./configure for first time installation</cmd></p></item>
+        <item><p><cmd>make</cmd></p></item>
+        <item><p><cmd>sudo make install # or make install as root</cmd></p></item>
+      </steps>
+      <p>
+        If you find any problems to install <app>Accerciser</app> on your system, it is likely that some 
+        of its dependencies are missing. Check section below to make sure you have all <app>Accerciser</app>
+        dependencies properly installed.
+      </p>
+    </section>
+  
+    <section id="accerciser_dependencies">
+      <title><app>Accerciser</app> dependencies</title>
+      <p>
+        On a Red Hat based distro, they are:
+      </p>
+      <list>
+        <item>
+          <p>
+            python >= 2.4
+          </p>
+        </item> 
+        <item>
+          <p>
+            pygtk2 >= 2.8
+          </p>
+        </item> 
+        <item>
+          <p>
+            gnome-python2 >= 2.12
+          </p>
+        </item> 
+        <item>
+          <p>
+            pyatspi
+          </p>
+        </item> 
+        <item>
+          <p>
+            gnome-python2-rsvg
+          </p>
+        </item>
+        <item>
+          <p>
+            gnome-python2-libwnck >= 2.14
+          </p>
+        </item>
+        <item>
+          <p>
+            GConf2
+          </p>
+        </item>
+      </list>
+      <p>
+        On a Debian based distro, they are:
+      </p>
+      <list>
+        <item>
+          <p>
+            python >= 2.4
+          </p>
+        </item> 
+        <item>
+          <p>
+            python-gtk2 >= 2.8
+          </p>
+        </item> 
+        <item>
+          <p>
+            python-gnome2 >= 2.14
+          </p>
+        </item> 
+        <item>
+          <p>
+            python-pyatspi2
+          </p>
+        </item> 
+        <item>
+          <p>
+            python-rsvg
+          </p>
+        </item>
+        <item>
+          <p>
+            python-wnck
+          </p>
+        </item>
+        <item>
+          <p>
+            gconf2 
+          </p>
+        </item>
+      </list>
+      <p>
+        <app>Accerciser</app> comes with a Python console plugin. If you intend to use it, you must have IPython installed.
+      </p>
+    </section>
+
+    <section id="running_accerciser">
+      <title>Running <app>Accerciser</app></title>
+
+      <p>
+        PENDING: Talk to the community to discover essential differences between running it
+        in GNOME 3/GNOME 2. Use bnitz instructions:
+      
+        globally enable accessibilty /
+        single application by setting GTK_MODULES=canberra-gtk-module:gail:atk-bridge
+      </p>
+    </section>
+</page>

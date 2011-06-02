@@ -1,0 +1,36 @@
+<page xmlns="http://projectmallard.org/1.0/" type="topic" id="who_might_use_accerciser">
+  <info>
+    <link type="guide" xref="index#getting_started"/>
+    <link type="next" xref="accerciser_plugins_architecture" />
+    <title type="sort">3. Who might use <app>Accerciser</app></title>
+    <desc>
+        A brief description of the public <app>Accerciser</app> intends to reach
+    </desc>
+    <credit type="author">
+      <name>Eitan Isaacson</name>
+      <email>eitan@ascender.com</email>
+    </credit>
+    <credit type="author">
+      <name>Peter Parente</name>
+      <email>pparent@us.ibm.com</email>
+    </credit>
+    <credit type="author">
+      <name>Aline Bessa</name>
+      <email>alibezz@gmail.com</email>
+    </credit>
+    <license>
+      <p>Creative Commons Share Alike 3.0</p>
+    </license>
+  </info>
+  <title>Who might use <app>Accerciser</app></title>
+  <p>
+    Accerciser fits the needs of many different audiences. It can be used by user interface
+    developers as a means to ensure that their application is providing all of its features
+    through AT-SPI. The <app>Accerciser</app> default validator plugin is useful for that (PENDING
+    put a link to validator section). Also, it can be used by assistive technology developers 
+    to see what AT-SPI is providing to their applications. Automated UI test
+    developers are also benefited by <app>Accerciser</app>, since it exposes different events 
+    that could be expected from their target application. <app>Accerciser</app> default plugins,
+    such as the interface viewer and the event monitor, are useful for both of latter cases.
+  </p>
+</page>
