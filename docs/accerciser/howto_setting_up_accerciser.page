@@ -3,9 +3,9 @@
   <link type="guide" xref="index#getting_started" />
   <!--link type="next" xref="who_might_use_accerciser" /-->
   <title type="sort">2. How to install and run <app>Accerciser</app></title>
-  <title type="link">Setting <app>Accerciser</app></title>
+  <title type="link">Setting up <app>Accerciser</app></title>
     <desc>
-      How to install and run <app>Accerciser</app> on your system
+      Install and run <app>Accerciser</app> on your system
     </desc>
     <credit type="author">
       <name>Eitan Isaacson</name>

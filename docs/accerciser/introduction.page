@@ -4,7 +4,7 @@
     <link type="next" xref="howto_setting_up_accerciser" />
     <title type="sort">1. What is Accerciser?</title>
     <desc>
-      Introducing <app>Accerciser</app>
+      An interactive accessibility explorer
     </desc>
     <credit type="author">
       <name>Eitan Isaacson</name>
@@ -22,7 +22,7 @@
       <p>Creative Commons Share Alike 3.0</p>
     </license>
   </info>
-  <title>What is Accerciser?</title>
+  <title>What is <app>Accerciser</app>?</title>
   <p>
     <app>Accerciser</app> is an interactive Python accessibility explorer for
     the GNOME desktop. It uses AT-SPI to inspect and control widgets, allowing
