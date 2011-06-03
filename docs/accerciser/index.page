@@ -31,34 +31,15 @@
     </p>
   </note>
   <section id="getting_started" style="2column">
-    <title>Getting started</title>
+    <title>Getting Started</title>
   </section>
-  <section id="exploring" style="2column">
-    <title>Exploring the accessibility hierarchy</title>
+  <section id="examing_a11y" style="2column">
+    <title>Examing the Accessibility of an Application</title>
   </section>
-  <section id="validator" style="2column">
-    <title>Using validators </title>
+  <section id="advanced" style="2column">
+    <title>Advanced</title>
   </section>
-  <section id="interface_viewer" style="2column">
-    <title>Using the interface viewer</title>
-  </section>
-  <section id="event_monitor" style="2column">
-    <title>Using the event monitor</title>
-  </section>  
-  <section id="iPython_console" style="2column">
-    <title>Using the iPython console</title>
-  </section>
-  <section id="api_browser" style="2column">
-    <title>Using the API browser</title>
-  </section>
-  <section id="customizing" style="2column">
-    <title>Customizing Accerciser</title>
-  </section>
-  <section id="extending" style="2column">
-    <title>Extending Accerciser</title>
-  </section>
-  <section id="faq" style="2column">
+  <section id="FAQ" style="2column">
     <title>FAQ</title>
   </section>
-
 </page>

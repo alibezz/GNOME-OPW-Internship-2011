@@ -1,7 +1,7 @@
 <page xmlns="http://projectmallard.org/1.0/" type="topic" id="howto_setting_up_accerciser">
 <info>
   <link type="guide" xref="index#getting_started" />
-  <link type="next" xref="who_might_use_accerciser" />
+  <!--link type="next" xref="who_might_use_accerciser" /-->
   <title type="sort">2. How to install and run <app>Accerciser</app></title>
   <title type="link">Setting <app>Accerciser</app></title>
     <desc>

@@ -1,6 +1,6 @@
 <page xmlns="http://projectmallard.org/1.0/" type="topic" id="who_might_use_accerciser">
   <info>
-    <link type="guide" xref="index#getting_started"/>
+    <!-- link type="guide" xref="index#getting_started"/-->
     <link type="next" xref="accerciser_plugins_architecture" />
     <title type="sort">3. Who might use <app>Accerciser</app></title>
     <desc>
