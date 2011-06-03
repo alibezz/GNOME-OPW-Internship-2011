@@ -32,6 +32,20 @@
     information.  
   </p>
 
+  <figure>
+    <title><app>Accerciser</app></title>
+    <desc>
+      <app>Accerciser</app>'s main interface is composed by three areas:
+      a tree view of the entire desktop accessible hierarchy, as exposed by AT-SPI's registry,
+      and two plugin areas.
+    </desc>
+    <media type="image" mime="image/png" src="figures/accerciser-view.png">
+      <p><app>Accerciser</app>'s main interface is composed by three areas:
+      a tree view of the entire desktop accessible hierarchy, as exposed by AT-SPI's registry,
+      and two plugin areas.</p>
+    </media>
+  </figure>
+  
   <section id="more_about_gnome_accessibility">
     <title><app>Accerciser</app>'s intended audience</title>
     <p>
@@ -45,6 +59,49 @@
       such as the interface viewer and the event monitor, are useful for both of latter cases.
     </p>
   </section>
+
+  <section id="accerciser_plugin_architecture">
+    <title><app>Accerciser</app>'s plugin architecture</title>
+    <p>
+      <app>Accerciser</app> has an extensible, plugin-based architecture.
+      It has a fairly small core and most of its features are part of its
+      default plugins: 
+    </p>
+    <list>
+      <item>
+        <p>
+          AT-SPI Validator A plugin that applies tests to verify the accessibility of a target application
+        </p>
+      </item>
+      <item>
+        <p>
+          Interface Viewer A plugin that lets you explore the functions provided by each accessible object of a target application
+        </p>
+      </item>
+      <item>
+        <p>
+          Event Monitor A plugin that displays AT-SPI events emitted by a target application as they occur
+        </p>
+      </item>
+      <item>
+        <p>
+          API Browser A plugin that shows the interfaces, methods, and 
+          attributes available on each accessible object of a target application
+        </p>
+      </item>
+      <item>
+        <p>
+          iPython Console A plugin that provides a full, interactive Python
+          shell with access to selected accessible objects of a target 
+          application
+        </p>
+      </item>
+    </list>
+    <p>
+      PENDING: Links to proper sections
+    </p>
+  </section>
+
 
   <section id="more_about_gnome_accessibility">
     <title>How do I find out more about AT-SPI Accessibility?</title>
