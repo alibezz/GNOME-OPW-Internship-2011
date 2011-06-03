@@ -4,7 +4,7 @@
 
 int main (int argc, char *argv[]) {
 
-  /*TODO Clean this main */
+  /*FIXME  Clean this main */
 
   GtkWidget *window, *entry, *grid, *combo1, *combo2, *combo3, *frame;
   gtk_init(&argc, &argv);
@@ -22,6 +22,7 @@ int main (int argc, char *argv[]) {
   GtkEntryBuffer *buffer = gtk_entry_get_buffer((GtkEntry *)entry);
   gtk_grid_attach(GTK_GRID(grid), entry, 0, 0, 3, 1);
 
+  /*FIXME Regulate paramaters via xml */
   /* Creates favorite bands' combo and attaches to grid */
   combo1 = new_combo_box_with_text("Velvet Underground", "Joy Division", "My Bloody Valentine");
   g_signal_connect( G_OBJECT(combo1), "changed", G_CALLBACK( cb_changed ), GTK_ENTRY_BUFFER(buffer));
