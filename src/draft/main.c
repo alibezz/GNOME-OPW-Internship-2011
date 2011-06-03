@@ -26,21 +26,21 @@ int main (int argc, char *argv[]) {
   /* Creates favorite bands' combo and attaches to grid */
   combo1 = new_combo_box_with_text("Velvet Underground", "Joy Division", "My Bloody Valentine");
   g_signal_connect( G_OBJECT(combo1), "changed", G_CALLBACK( cb_changed ), GTK_ENTRY_BUFFER(buffer));
-  frame = gtk_frame_new("Operators");
+  frame = gtk_frame_new("Favorite Bands");
   gtk_container_add(GTK_CONTAINER(frame), combo1);
   gtk_grid_attach(GTK_GRID(grid), frame, 0, 1, 1, 1);
 
   /* Creates favorite foods' combo and attaches to grid */
   combo2 = new_combo_box_with_text("Mexican", "Japanese", "Italian");
   g_signal_connect( G_OBJECT(combo2), "changed", G_CALLBACK( cb_changed ), GTK_ENTRY_BUFFER(buffer));
-  frame = gtk_frame_new("Delimiters");
+  frame = gtk_frame_new("Favorite Foods");
   gtk_container_add(GTK_CONTAINER(frame), combo2);
   gtk_grid_attach(GTK_GRID(grid), frame, 1, 1, 1, 1);
 
   /* Creates favorite movies' combo and attaches to grid */
   combo3 = new_combo_box_with_text("Dekalog", "Acossado", "Magnolia");
   g_signal_connect( G_OBJECT(combo3), "changed", G_CALLBACK( cb_changed ), GTK_ENTRY_BUFFER(buffer));
-  frame = gtk_frame_new("Other symbols");
+  frame = gtk_frame_new("Favorite Movies");
   gtk_container_add(GTK_CONTAINER(frame), combo3);
   gtk_grid_attach(GTK_GRID(grid), frame, 2, 1, 1, 1);
 
