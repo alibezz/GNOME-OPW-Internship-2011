@@ -34,13 +34,10 @@
     <section id="installing_accerciser_manually">
       <title>Installing <app>Accerciser</app> manually</title>
        <p>
-        To install <app>Accerciser</app> manually, you will need to download it first. The most recent development
-        release of <app>Accerciser</app> is version 1.12.x. Click <link href="http://ftp.gnome.org/pub/GNOME/sources/accerciser/1.12/">here</link>
-        to download it. Alternatively, you can get the current trunk using the following command:
+        To install <app>Accerciser</app> manually, you will need to download it first. <app>Accerciser</app>'s
+        source code can either be downloaded from <link href="http://ftp.gnome.org/pub/GNOME/sources/accerciser/">gnome.org
+        FTP site</link> or cloned from <link href="http://git.gnome.org/browse/accerciser">gnome.org GIT repository</link>.
       </p>
-      
- 
-      <p><cmd>git clone git://git.gnome.org/accerciser</cmd></p>
       <p>
         After getting <app>Accerciser</app>, install it using the following commands:
       </p>
@@ -51,7 +48,7 @@
         <item><p><cmd>sudo make install # or make install as root</cmd></p></item>
       </steps>
       <p>
-        If you find any problems to install <app>Accerciser</app> on your system, it is likely that some 
+        If you find any problems installing <app>Accerciser</app> on your system, it is likely that some 
         of its dependencies are missing. Check section below to make sure you have all <app>Accerciser</app>
         dependencies properly installed.
       </p>
