@@ -1,0 +1,104 @@
+<page xmlns="http://projectmallard.org/1.0/" type="topic" id="desktop_tree_view">
+  <info>
+    <link type="guide" xref="index#examining_a11y" />
+    <title type="sort">1. Desktop Tree View</title>
+    <link type="next" xref="validator_plugin" />
+    <desc>
+      Testing an application for accessibility
+    </desc>
+    <credit type="author">
+      <name>Eitan Isaacson</name>
+      <email>eitan@ascender.com</email>
+    </credit>
+    <credit type="author">
+      <name>Peter Parente</name>
+      <email>pparent@us.ibm.com</email>
+    </credit>
+    <credit type="author">
+      <name>Aline Bessa</name>
+      <email>alibezz@gmail.com</email>
+    </credit>
+    <license>
+      <p>Creative Commons Share Alike 3.0</p>
+    </license>
+  </info>
+  <title>Desktop Tree View</title>
+  <p>
+    The <app>Accerciser</app> AT-SPI Validator Plugin generates a report with accessibility
+    issues related to a target application. Besides listing the errors, the report includes
+    their severity levels and explanations for each specific problem identified.
+  </p>
+   <figure>
+    <title>AT-SPI Validator Plugin</title>
+    <desc>
+      The AT-SPI Validator Plugin generates useful reports for verifying the accessibility of
+      a target application.
+    </desc>
+    <media type="image" mime="image/png" width="800" height="500" src="figures/validator_report.png">
+      <p>
+        The AT-SPI Validator Plugin generates useful reports for verifying the accessibility of
+        a target application.
+      </p>
+    </media>
+  </figure>
+
+  <p>
+    The generated report is interactive. Therefore, you can double-click any
+    line of it to check which of the target application widgets is causing the reported error. After
+    double-clicking the error, the corresponding widget will appear selected in the target 
+    application tree view PENDING (link to a section that explains this tree) and highlighted in
+    the target application.  
+  </p>  
+  <figure>
+    <title>Selecting errors with the AT-SPI Validator Plugin</title>
+    <desc>
+      Double-click an error line in the AT-SPI Validator Plugin to find which of
+      the target application widgets is causing it.
+    </desc>
+    <media type="image" mime="image/png" width="800" height="500" src="figures/validator_app_tree.png">
+      <p>
+        Double-click an error line in the AT-SPI Validator Plugin to find which of
+        the target application widgets is causing it.
+      </p>
+    </media>
+  </figure>
+
+
+
+  <section id="running_at_spi_validator">
+      <title>Running the AT-SPI Validator Plugin</title>
+      <p>
+        To run the AT-SPI Validator Plugin, select an item in the desktop tree view PENDING (link to 
+        a section that explains this tree). This item can either be a target application 
+        or one of its widgets. The validator will generate the report with respect to
+        the selected item and all of its descendant widgets in the tree hierarchy.
+      </p>
+      <figure>
+        <title>Selecting an item in the desktop tree view</title>
+    <desc>
+      To run the AT-SPI Validator Plugin, select either an application or one of its widgets in the
+      desktop tree view.
+    </desc>
+    <media type="image" mime="image/png" width="800" height="500" src="figures/accessible_tree.png">
+      <p>
+        To run the AT-SPI Validator Plugin, select either an application or one of its widgets in the
+        desktop tree view.
+      </p>
+    </media>
+  </figure>
+
+
+      <p>
+        After selecting an item in the desktop tree view, choose a validation schema in the combobox 
+        and press the <cmd>Validate</cmd> button to start generating the report. If you want to cancel
+        this process validation, just press the <cmd>Validate</cmd> button again.
+      </p>
+      <p>
+        If you want to save the generated report in your system, just click the <cmd>Save</cmd> button.
+        To clear the validation screen, you just need to press the <cmd>Clear</cmd> button.
+      </p>
+      <p>
+        PENDING: Explain Help button when the documentation for the errors gets ready.
+      </p>
+  </section>
+</page>
