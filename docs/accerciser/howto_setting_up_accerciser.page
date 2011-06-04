@@ -1,11 +1,11 @@
 <page xmlns="http://projectmallard.org/1.0/" type="topic" id="howto_setting_up_accerciser">
 <info>
   <link type="guide" xref="index#getting_started" />
-  <!--link type="next" xref="who_might_use_accerciser" /-->
+  <link type="next" xref="desktop_tree_view" />
   <title type="sort">2. How to install and run <app>Accerciser</app></title>
   <title type="link">Setting up <app>Accerciser</app></title>
     <desc>
-      Install and run <app>Accerciser</app> on your system
+      Installing and running <app>Accerciser</app> on your system
     </desc>
     <credit type="author">
       <name>Eitan Isaacson</name>
@@ -23,7 +23,7 @@
       <p>Creative Commons Share Alike 3.0</p>
     </license>
   </info>
-  <title>How to install and run <app>Accerciser</app></title>
+  <title>Setting up <app>Accerciser</app></title>
 
     <p>
       Check if your distribution has <app>Accerciser</app> already packaged.

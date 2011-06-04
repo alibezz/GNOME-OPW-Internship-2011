@@ -104,7 +104,7 @@
 
 
   <section id="more_about_gnome_accessibility">
-    <title>How do I find out more about AT-SPI Accessibility?</title>
+    <title>More about AT-SPI Accessibility</title>
     <p>
        PENDING Explain that these libs originated at GNOME but can be used in many other Desktop Environments.
     </p>

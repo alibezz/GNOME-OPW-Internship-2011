@@ -1,10 +1,10 @@
 <page xmlns="http://projectmallard.org/1.0/" type="topic" id="validator_plugin">
   <info>
-    <link type="guide" xref="index#validator" />
-    <title type="sort">1. <app>Accerciser</app> Validator Default Plugin</title>
-    <link type="next" xref="how_to_write_a_validator" />
+    <link type="guide" xref="index#examining_a11y" />
+    <title type="sort">2. <app>Accerciser</app> Validator Default Plugin</title>
+    <!--link type="next" xref="how_to_write_a_validator" /-->
     <desc>
-      Introducing <app>Accerciser</app> validator default plugin
+      Testing an application for accessibility
     </desc>
     <credit type="author">
       <name>Eitan Isaacson</name>
@@ -22,35 +22,76 @@
       <p>Creative Commons Share Alike 3.0</p>
     </license>
   </info>
-  <title><app>Accerciser</app> validator default plugin</title>
+  <title><app>Accerciser</app> AT-SPI Validator Plugin</title>
   <p>
-    The <app>Accerciser</app> validator default plugin, namely AT-SPI Validator,
-    generates a report with accessibility issues related to a target application.
-    Besides listing the errors, the report includes their levels and descriptions, 
-    just like in the figure below.
+    The <app>Accerciser</app> AT-SPI Validator Plugin generates a report with accessibility
+    issues related to a target application. Besides listing the errors, the report includes
+    their severity levels and explanations for each specific problem identified.
   </p>
-  <media type="image" mime="image/png" width="800" height="500" src="figures/validator_report.png"/>
+   <figure>
+    <title>AT-SPI Validator Plugin</title>
+    <desc>
+      The AT-SPI Validator Plugin generates useful reports for verifying the accessibility of
+      a target application.
+    </desc>
+    <media type="image" mime="image/png" width="800" height="500" src="figures/validator_report.png">
+      <p>
+        The AT-SPI Validator Plugin generates useful reports for verifying the accessibility of
+        a target application.
+      </p>
+    </media>
+  </figure>
+
   <p>
-    The generated report is interactive. It means that you can double-click any
-    line of it to check which of your interface's elements is causing the reported error. After
-    double-clicking the error, the corresponding element will appear selected in the target 
-    application tree and highlighted in the target application, just like in the figure below. 
+    The generated report is interactive. Therefore, you can double-click any
+    line of it to check which of the target application widgets is causing the reported error. After
+    double-clicking the error, the corresponding widget will appear selected in the target 
+    application tree view PENDING (link to a section that explains this tree) and highlighted in
+    the target application.  
   </p>  
-  <media type="image" mime="image/png" width="800" height="500" src="figures/validator_app_tree.png"/>
+  <figure>
+    <title>Selecting errors with the AT-SPI Validator Plugin</title>
+    <desc>
+      Double-click an error line in the AT-SPI Validator Plugin to find which of
+      the target application widgets is causing it.
+    </desc>
+    <media type="image" mime="image/png" width="800" height="500" src="figures/validator_app_tree.png">
+      <p>
+        Double-click an error line in the AT-SPI Validator Plugin to find which of
+        the target application widgets is causing it.
+      </p>
+    </media>
+  </figure>
+
+
 
   <section id="running_at_spi_validator">
-      <title>Running the AT-SPI Validator</title>
+      <title>Running the AT-SPI Validator Plugin</title>
       <p>
-        To run the AT-SPI Validator, select an item in the tree view, as indicated in the 
-        figure below. It can either be the target application itself or one of its
-        elements. The validator will generate the report with respect to
-        the selected item and all of its descendants.
+        To run the AT-SPI Validator Plugin, select an item in the desktop tree view PENDING (link to 
+        a section that explains this tree). This item can either be a target application 
+        or one of its widgets. The validator will generate the report with respect to
+        the selected item and all of its descendant widgets in the tree hierarchy.
       </p>
-      <media type="image" mime="image/png" width="800" height="500" src="figures/accessible_tree.png"/>
+      <figure>
+        <title>Selecting an item in the desktop tree view</title>
+    <desc>
+      To run the AT-SPI Validator Plugin, select either an application or one of its widgets in the
+      desktop tree view.
+    </desc>
+    <media type="image" mime="image/png" width="800" height="500" src="figures/accessible_tree.png">
       <p>
-        After that, select a schema for the verification and press the <cmd>Validate</cmd>
-        button to start the validation. If you want to cancel the validation, just press the <cmd>
-        Validate</cmd> button again.
+        To run the AT-SPI Validator Plugin, select either an application or one of its widgets in the
+        desktop tree view.
+      </p>
+    </media>
+  </figure>
+
+
+      <p>
+        After selecting an item in the desktop tree view, choose a validation schema in the combobox 
+        and press the <cmd>Validate</cmd> button to start generating the report. If you want to cancel
+        the execution, just press the <cmd>Validate</cmd> button again.
       </p>
       <p>
         If you want to save the generated report in your system, just click the <cmd>Save</cmd> button.
