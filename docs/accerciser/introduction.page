@@ -35,14 +35,12 @@
   <figure>
     <title><app>Accerciser</app></title>
     <desc>
-      <app>Accerciser</app>'s main interface is composed by three areas:
-      a tree view of the entire desktop accessible hierarchy, as exposed by AT-SPI's registry,
-      and two plugin areas.
+      <app>Accerciser</app>'s main interface is composed by three sections:
+      a tree view of the entire desktop accessible hierarchy and two plugin areas.
     </desc>
     <media type="image" mime="image/png" src="figures/accerciser-view.png">
-      <p><app>Accerciser</app>'s main interface is composed by three areas:
-      a tree view of the entire desktop accessible hierarchy, as exposed by AT-SPI's registry,
-      and two plugin areas.</p>
+      <p><app>Accerciser</app>'s main interface is composed by three sections:
+      a tree view of the entire desktop accessible hierarchy and two plugin areas.</p>
     </media>
   </figure>
   
