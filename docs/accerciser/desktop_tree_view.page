@@ -31,6 +31,20 @@
     are currently running on the desktop. After that, <app>Accerciser</app> represents each
     application as a tree with expanding nodes. 
   </p>
+
+  <figure>
+    <title>Tree View</title>
+    <desc>
+      <app>Accerciser</app>'s Tree View represents the interface of each accessible application
+      running on the desktop as a widget hierarchical tree. 
+    </desc>
+    <media type="image" mime="image/png" width="400" height="600" src="figures/tree_view_accerciser.png">
+      <p><app>Accerciser</app>'s Tree View represents the interface of each accessible application
+      running on the desktop as a widget hierarchical tree.</p>
+    </media>
+  </figure>
+
+
   <p>
     The first node of each tree represented in the Tree View is the application itself. When you expand a node, you
     can see all of its children widgets, which allows a hierarchical view of the application's interface. For each node in

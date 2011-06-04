@@ -1,7 +1,7 @@
 <page xmlns="http://projectmallard.org/1.0/" type="topic" id="validator_plugin">
   <info>
     <link type="guide" xref="index#examining_a11y" />
-    <title type="sort">2. <app>Accerciser</app> Validator Default Plugin</title>
+    <title type="sort">2. Validator Default Plugin</title>
     <!--link type="next" xref="how_to_write_a_validator" /-->
     <desc>
       Testing an application for accessibility
@@ -22,9 +22,9 @@
       <p>Creative Commons Share Alike 3.0</p>
     </license>
   </info>
-  <title><app>Accerciser</app> AT-SPI Validator Plugin</title>
+  <title> AT-SPI Validator Plugin</title>
   <p>
-    The <app>Accerciser</app> AT-SPI Validator Plugin generates a report with accessibility
+    The AT-SPI Validator Plugin generates a report with accessibility
     issues related to a target application. Besides listing the errors, the report includes
     their severity levels and explanations for each specific problem identified.
   </p>
