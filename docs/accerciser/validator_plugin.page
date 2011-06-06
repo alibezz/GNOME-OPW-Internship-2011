@@ -2,7 +2,7 @@
   <info>
     <link type="guide" xref="index#examining_a11y" />
     <title type="sort">2. Validator Default Plugin</title>
-    <!--link type="next" xref="how_to_write_a_validator" /-->
+    <link type="next" xref="event_monitor_plugin" />
     <desc>
       Testing an application for accessibility
     </desc>
