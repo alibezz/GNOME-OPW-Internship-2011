@@ -27,9 +27,13 @@
   <p>
     <app>Accerciser</app>'s interface contains a Tree View that covers all accessible applications
     currently running on the desktop. To create the Tree View, <app>Accerciser</app> first 
-    uses the AT-SPI's registry daemon PENDING (link to it) to get all accessible applications that
-    are currently running on the desktop. After that, <app>Accerciser</app> represents each
-    application as a tree with expanding nodes. 
+    uses the AT-SPI's registry daemon to get all accessible applications that
+    are currently running on the desktop. This daemon is responsible for keeping track of all the
+    accessible applications on the desktop and forwarding X events over the AT-SPI D-Bus. 
+  </p>
+  <p>
+    After getting all accessible applications, <app>Accerciser</app> represents each one of them
+    as a tree with expanding nodes. 
   </p>
 
   <figure>
@@ -58,7 +62,6 @@
   </note>
 
   <p>
-    PENDING Ask the community about: Quick select (??), Bookmarks (how does it work??) and Refresh Registry/Refresh Node (check
-    before whether this is automatic) and whether this is a good moment to talk about gsettings/gconf
+    PENDING Ask the community about Refresh Registry/Refresh Node (shouldn't it be automatic?)
   </p>
 </page>
