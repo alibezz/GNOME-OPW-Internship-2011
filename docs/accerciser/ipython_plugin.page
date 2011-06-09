@@ -24,9 +24,10 @@
   </info>
   <title> IPython Console Plugin</title>
   <p>
-    The IPython Console Plugin is a fully-fledged IPython (PENDING http://ipython.github.com/ipython-doc/)
-    console that allows real-time interaction with a selected item in the Tree View (PENDIND link) and
-    the AT-SPI registry daemon (PENDING link). When you want to check an information related to any
+    The IPython Console Plugin is a fully-fledged <link xref="http://ipython.github.com/ipython-doc/">IPython</link> (PENDING
+    change this link)
+    console that allows real-time interaction with a selected item in the <link xref="desktop_tree_view">Tree View</link>.
+    When you want to check an information related to any
     accessible item and <app>Accerciser</app>'s default plugins can't help, try the IPython Console Plugin.
   </p>
 
@@ -64,8 +65,13 @@
     </media>
   </figure>
   <p>
-    PENDING arrow up + arrow down tips
-    help(acc) shows some documentation about the item's api
-  </p>
+
+  <note style="tip">
+    <p>
+      Typing <cmd>help(acc)</cmd> in the IPython Console Plugin shows some useful documentation
+      about the corresponding selected accessible item.
+      modules you want.
+    </p>
+  </note>
   </section>
 </page>
