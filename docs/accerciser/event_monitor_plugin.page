@@ -24,10 +24,11 @@
   </info>
   <title> Event Monitor Plugin</title>
   <p>
-    The Event Monitor Plugin allows you to view AT-SPI events (PENDING link to
-    http://accessibility.linuxfoundation.org/a11yspecs/atspi/adoc/atspi-events.html) 
+    The Event Monitor Plugin allows you to view 
+    <link href="http://accessibility.linuxfoundation.org/a11yspecs/atspi/adoc/atspi-events.html">AT-SPI events</link>
+    (PENDING change link to something more reliable) 
     as they occur on the applications exposed in <app>Accerciser</app>'s
-    Tree View (PENDING link to it). The plugin is useful to explore the dynamics of an 
+    <link xref="desktop_tree_view">Tree View</link>. The plugin is useful to explore the dynamics of an 
     application's interface and verify which accessible widgets are related to which AT-SPI events.
   </p>
 
@@ -69,8 +70,8 @@
     <p>  
       Besides selecting event types to be monitored, you can specify the context of the
       Event Monitor Plugin. By default, the Source option <cmd>Everything</cmd> is selected,
-      indicating that AT-SPI events of all applications in the Tree View (PENDING Link to 
-      tree view) will be monitored. If you want to investigate a single application, select it
+      indicating that AT-SPI events of all applications in the Tree View will be monitored.
+      If you want to investigate a single application, select it
       in the Tree View and click the Source option <cmd>Selected application</cmd>. Analogously,
       if you want to monitor a single accessible widget and its corresponding descendants,
       select it in the Tree View and click the Source option <cmd>Selected accessible</cmd>.
@@ -88,7 +89,7 @@
     <p>
       For each monitored event, the Event Monitor Plugin indicates its related source - i.e., the accessible
       widget directly associated with the event - and application. Double-clicking the indicated source will
-      select it in the Tree View (PENDING link to it) and highlight it in the corresponding application. 
+      select it in the Tree View and highlight it in the corresponding application. 
       Double-clicking the indicated application will simply select it in the Tree View.    
     </p>
     <p>
@@ -97,7 +98,4 @@
       click the <cmd>Clear</cmd> button.
     </p>
   </section>
-  <p>
-    PENDING ctrl+alt+l does not work currently
-  </p>
 </page>
