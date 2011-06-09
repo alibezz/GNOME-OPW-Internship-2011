@@ -24,7 +24,7 @@
   </info>
   <title> IPython Console Plugin</title>
   <p>
-    The IPython Console Plugin is a fully-fledged <link xref="http://ipython.github.com/ipython-doc/">IPython</link> (PENDING
+    The IPython Console Plugin is a fully-fledged <link href="http://ipython.github.com/ipython-doc/">IPython</link> (PENDING
     change this link)
     console that allows real-time interaction with a selected item in the <link xref="desktop_tree_view">Tree View</link>.
     When you want to check an information related to any
@@ -64,13 +64,11 @@
       </p>
     </media>
   </figure>
-  <p>
 
   <note style="tip">
     <p>
       Typing <cmd>help(acc)</cmd> in the IPython Console Plugin shows some useful documentation
       about the corresponding selected accessible item.
-      modules you want.
     </p>
   </note>
   </section>

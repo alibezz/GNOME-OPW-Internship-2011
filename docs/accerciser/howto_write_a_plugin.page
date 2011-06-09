@@ -25,7 +25,7 @@
   <title> Writing Plugins for <app>Accerciser</app></title>
   <p>
     Extending <app>Accerciser</app> with new plugins became much simpler
-    since <link xref=http://live.gnome.org/Accerciser/PluginTutorial>this tutorial</link>
+    since <link href="http://live.gnome.org/Accerciser/PluginTutorial">this tutorial</link>
     was written. Given that it provides a very detailed explanation about the topic,
     this section consists basically of its original content - only simple editions
     and updates were done.
@@ -104,7 +104,7 @@
     <code>
       def accEventFocusChanged(self, event):
         if not self.isMyApp(event.source):
-        self.last_focused = event.source
+          self.last_focused = event.source
     </code>
     <p>
        In the hotkey action callback, we update the application wide node with the
@@ -154,19 +154,6 @@
         if event.source.getRole() == pyatspi.ROLE_PUSH_BUTTON:
           self.appendText(str(event)+'\n')
     </code>
-  <figure>
-    <title>Investigating selected items with the IPython Console Plugin</title>
-    <desc>
-      The IPython Console Plugin lets you investigate methods, constants, and properties
-      related to a selected item in the Tree View. 
-    </desc>
-    <media type="image" mime="image/png" width="800" height="500" src="figures/IPython_plugin.png">
-      <p>
-       The IPython Console Plugin lets you investigate methods, constants, and properties
-       related to a selected item in the Tree View. 
-      </p>
-    </media>
-  </figure>
   </section>
   <section id="viewport_plugin">
     <title>Creating a Viewport Plugin</title>
@@ -246,18 +233,5 @@
         action_names = [ai.getName(i) for i in xrange(ai.nActions)]
         ai.doAction(action_names.index('click'))
     </code>
-  <figure>
-    <title>Investigating selected items with the IPython Console Plugin</title>
-    <desc>
-      The IPython Console Plugin lets you investigate methods, constants, and properties
-      related to a selected item in the Tree View.
-    </desc>
-    <media type="image" mime="image/png" width="800" height="500" src="figures/IPython_plugin.png">
-      <p>
-       The IPython Console Plugin lets you investigate methods, constants, and properties
-       related to a selected item in the Tree View.
-      </p>
-    </media>
-  </figure>
-  </section>
+   </section>
 </page>
