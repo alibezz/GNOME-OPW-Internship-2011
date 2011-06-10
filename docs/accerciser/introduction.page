@@ -25,38 +25,44 @@
   <title>What is <app>Accerciser</app>?</title>
   <p>
     <app>Accerciser</app> is an interactive Python accessibility explorer.
-    It uses AT-SPI to inspect, examine, and interact with widgets, allowing
+    It uses the AT-SPI library to inspect, examine, and interact with widgets, allowing
     you to check if an application is providing correct information to assistive
-    technologies and automated testing frameworks. Accerciser comes with a set
-    of plugins which you can use to create custom views of accessibility 
+    technologies and automated testing frameworks. <app>Accerciser</app> comes with a set
+    of plugins that you can use to create custom views of accessibility 
     information.  
   </p>
-
+  <p>
+    By default, <app>Accerciser</app>'s main interface is composed by three sections:
+    a tree view of the entire desktop accessible hierarchy and two plugin areas.
+    If you prefer to see all plugins in a single area, dividing <app>Accerciser</app>'s
+    interface in two sections instead of three, type <key>ctrl</key>+<key>t</key>. To
+    re-divide it in three sections, just press <key>ctrl</key>+<key>t</key> again.
+  </p>
+ 
   <figure>
     <title><app>Accerciser</app></title>
     <desc>
-      <app>Accerciser</app>'s main interface is composed by three sections:
-      a tree view of the entire desktop accessible hierarchy and two plugin areas.
+      <app>Accerciser</app>'s default interface.
     </desc>
     <media type="image" mime="image/png" src="figures/accerciser-view.png">
-      <p><app>Accerciser</app>'s main interface is composed by three sections:
-      a tree view of the entire desktop accessible hierarchy and two plugin areas.</p>
+      <p>
+        <app>Accerciser</app>'s default interface.
+      </p>
     </media>
   </figure>
-  <p>
-    PENDING Talk about ctrl+t as a tip to single plugin view
-  </p> 
+
   <section id="more_about_gnome_accessibility">
     <title><app>Accerciser</app>'s intended audience</title>
     <p>
-      Accerciser fits the needs of many different audiences. It can be used by user interface
-      developers as a means to ensure that their application is providing all of its features
-      through AT-SPI. The <app>Accerciser</app> default validator plugin is useful for that (PENDING
-      put a link to validator section). Also, it can be used by assistive technology developers
+      <app>Accerciser</app> fits the needs of many different audiences. It can be used by user interface
+      developers as a means of ensuring that their applications are providing all of their features
+      through AT-SPI. The <link xref="validator_plugin">AT-SPI Validator Plugin</link> is useful for that.
+      Also, it can be used by assistive technology developers
       to see what AT-SPI is providing to their applications. Automated UI test
       developers are also benefited by <app>Accerciser</app>, since it exposes different events
       that could be expected from their target application. <app>Accerciser</app> default plugins,
-      such as the interface viewer and the event monitor, are useful for both of latter cases.
+      such as the Interface Viewer Plugin (PENDING section) and the <link xref="event_monitor_plugin">
+      Event Monitor Plugin</link>, are useful in both cases.
     </p>
   </section>
 
@@ -70,53 +76,68 @@
     <list>
       <item>
         <p>
-          AT-SPI Validator A plugin that applies tests to verify the accessibility of a target application
+          <link xref="validator_plugin">AT-SPI Validator</link> A plugin that applies tests to verify the
+          accessibility of a target application
         </p>
       </item>
       <item>
         <p>
-          Interface Viewer A plugin that lets you explore the functions provided by each accessible object of a target application
+          PENDING section Interface Viewer A plugin that lets you explore the functions provided by each accessible
+          object of a target application
         </p>
       </item>
       <item>
         <p>
-          Event Monitor A plugin that displays AT-SPI events emitted by a target application as they occur
+          <link xref="event_monitor_plugin">Event Monitor</link> A plugin that displays AT-SPI events emitted by a target
+          application as they occur
         </p>
       </item>
       <item>
         <p>
-          API Browser A plugin that shows the interfaces, methods, and 
+          <link xref="api_browser_plugin">API Browser</link> A plugin that shows the interfaces, methods, and 
           attributes available on each accessible object of a target application
         </p>
       </item>
       <item>
         <p>
-          iPython Console A plugin that provides a full, interactive Python
-          shell with access to selected accessible objects of a target 
-          application
+          <link xref="ipython_plugin">IPython Console</link> A plugin that provides a full, interactive Python
+          shell with access to selected accessible objects of a target application
+        </p>
+      </item>
+      <item>
+        <p>
+          Quick Select PENDING section
         </p>
       </item>
     </list>
-    <p>
-      PENDING: Links to proper sections
-    </p>
   </section>
 
 
   <section id="more_about_gnome_accessibility">
-    <title>More about AT-SPI Accessibility</title>
-    <p>
-       PENDING Explain that these libs originated at GNOME but can be used in many other Desktop Environments.
-    </p>
+    <title>More about Accessibility</title>
     <p>
        Accessibility is a core value that should touch all aspects of a Desktop
-       Environment. PENDING SENTENCE ABOVE To learn more about Accessibility
+       Environment. To help achieving it in GNOME, some libraries were developed,
+       such as ATK and AT-SPI. Though originated in GNOME, these libraries are now
+       also used in other Desktop Environments. To learn more about Accessibility
        Libraries for GNU/UNIX systems, you can consult:
     </p>
-    <p>
-      PENDING Add more items below, such as Qt work in progress and others.
-    </p> 
     <list>
+      <item>
+        <p>
+          <link href="http://developer.gnome.org/atk/">ATK Accessibility Toolkit</link>
+          ATK provides the set of accessibility interfaces that are implemented by other toolkits and applications.
+          Using the ATK interfaces, accessibility tools have full access to view and control running applications.
+        </p>
+      </item>
+      <item>
+        <p>
+          <link href="http://developer.gnome.org/at-spi-cspi/stable/">AT-SPI</link>
+          AT-SPI is the primary service interface by which assistive technologies query and receive 
+          notifications from running applications. Additional material is available from the 
+          <link href="http://accessibility.kde.org/developer/atk.php#coreclasses">KDE Accessibility Development Community</link>.  
+        </p>
+      </item>
       <item>
         <p>
           <link href="http://library.gnome.org/users/gnome-access-guide/stable/">GNOME Desktop Accessibility Guide</link>
