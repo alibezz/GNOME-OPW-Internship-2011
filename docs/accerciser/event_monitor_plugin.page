@@ -2,7 +2,7 @@
   <info>
     <link type="guide" xref="index#examining_a11y" />
     <title type="sort">3. Event Monitor Plugin</title>
-    <link type="next" xref="api_browser_plugin" />
+    <link type="next" xref="quick_select_plugin" />
     <desc>
       Monitoring AT-SPI events as they occur on the applications
     </desc>

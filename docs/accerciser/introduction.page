@@ -83,7 +83,7 @@
       <item>
         <p>
           PENDING section Interface Viewer A plugin that lets you explore the functions provided by each accessible
-          object of a target application
+          widget of a target application
         </p>
       </item>
       <item>
@@ -95,18 +95,19 @@
       <item>
         <p>
           <link xref="api_browser_plugin">API Browser</link> A plugin that shows the interfaces, methods, and 
-          attributes available on each accessible object of a target application
+          attributes available on each accessible widget of a target application
         </p>
       </item>
       <item>
         <p>
           <link xref="ipython_plugin">IPython Console</link> A plugin that provides a full, interactive Python
-          shell with access to selected accessible objects of a target application
+          shell with access to selected accessible widgets of a target application
         </p>
       </item>
       <item>
         <p>
-          Quick Select PENDING section
+          <link xref="quick_select_plugin">Quick Select</link> A plugin that provides global hotkeys for quickly
+          selecting accessible widgets in <app>Accerciser</app>'s desktop tree view
         </p>
       </item>
     </list>

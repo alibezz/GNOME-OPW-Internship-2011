@@ -57,7 +57,7 @@
   <section id="base_plugin">
     <title>Creating a Base Plugin</title>
     <p>
-      We will create a simplified version of the Quick Select Plugin (PENDING Section). 
+      We will create a simplified version of the <link xref="quick_select_plugin">Quick Select Plugin</link>. 
       This plugin will select the last focused accessible when pressing <key>ctrl</key>+<key>alt</key>+<key>e</key>.
     </p>
     <p>
