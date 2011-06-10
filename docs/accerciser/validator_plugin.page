@@ -1,7 +1,7 @@
 <page xmlns="http://projectmallard.org/1.0/" type="topic" id="validator_plugin">
   <info>
     <link type="guide" xref="index#examining_a11y" />
-    <title type="sort">2. Validator Default Plugin</title>
+    <title type="sort">3. Validator Default Plugin</title>
     <link type="next" xref="event_monitor_plugin" />
     <desc>
       Testing an application for accessibility

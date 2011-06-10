@@ -1,0 +1,59 @@
+<page xmlns="http://projectmallard.org/1.0/" type="topic" id="interface_viewer">
+  <info>
+    <link type="guide" xref="index#examining_a11y" />
+    <title type="sort">2. Interface Viewer Plugin</title>
+    <link type="next" xref="validator_plugin" />
+    <desc>
+      Examining your accessibility implementation
+    </desc>
+    <credit type="author">
+      <name>Eitan Isaacson</name>
+      <email>eitan@ascender.com</email>
+    </credit>
+    <credit type="author">
+      <name>Peter Parente</name>
+      <email>pparent@us.ibm.com</email>
+    </credit>
+    <credit type="author">
+      <name>Aline Bessa</name>
+      <email>alibezz@gmail.com</email>
+    </credit>
+    <license>
+      <p>Creative Commons Share Alike 3.0</p>
+    </license>
+  </info>
+  <title>Interface Viewer Plugin</title>
+
+  <p>
+    The Interface Viewer Plugin shows the information and controls provided by the AT-SPI interfaces
+    present in each accessible item from the <link xref="desktop_tree_view">Tree View</link>. After
+    selecting an item, you can use this plugin to quickly review its supported interfaces, to retrieve 
+    each interface's information, and to manipulate the item through all interface’s methods.
+  </p>
+
+  <figure>
+    <title>Tree View</title>
+    <desc>
+      Given a selected item in the Tree View, all of its AT-SPI interfaces will be shown as sensitive
+      in the Interface Viewer Plugin. Those unsupported will appear grayed out.
+    </desc>
+    <media type="image" mime="image/png" width="1000" height="450" src="figures/interface_viewer_plugin.png">
+      <p>Given a selected item in the Tree View, all of its AT-SPI interfaces will be shown as sensitive
+      in the Interface Viewer Plugin. Those unsupported will appear grayed out.</p>
+    </media>
+  </figure>
+
+  <p>
+    In the figure above, an item with role "menu" was selected. By default, the Interface Viewer Plugin shows the
+    item's role and its name - since the one in the example doesn't have a name, it won't appear. After that, all
+    AT-SPI interfaces covered by the plugin appear listed. The ones provided by the item are "Accessible", "Action", 
+    "Component", "Selection", and "Text". In the figure, the first three were explored, allowing interaction with 
+    the "click" action provided by the item and access to some of its information, such as number of children 
+    ("Accessible") and absolute position in the desktop ("Component").
+  </p>
+  <p>
+    Exploring the Interface Viewer Plugin is very useful to learn about AT-SPI interfaces. To read more about it, you
+    can either consult the <link href="http://developer.gnome.org/at-spi-cspi/stable/">AT-SPI C Bindings Reference Manual</link>
+    or the <link href="http://developer.gnome.org/libatspi/2.1/">libatspi Reference Manual</link>.
+  </p>
+</page>

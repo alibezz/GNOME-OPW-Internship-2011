@@ -76,20 +76,26 @@
     <list>
       <item>
         <p>
+          <link xref="interface_viewer">Interface Viewer</link> A plugin that lets you explore the AT-SPI 
+          interfaces provided by each accessible widget of a target application
+        </p>
+      </item>
+      <item>
+        <p>
           <link xref="validator_plugin">AT-SPI Validator</link> A plugin that applies tests to verify the
           accessibility of a target application
         </p>
       </item>
       <item>
         <p>
-          PENDING section Interface Viewer A plugin that lets you explore the functions provided by each accessible
-          widget of a target application
+          <link xref="event_monitor_plugin">Event Monitor</link> A plugin that displays AT-SPI events emitted by a target
+          application as they occur
         </p>
       </item>
       <item>
         <p>
-          <link xref="event_monitor_plugin">Event Monitor</link> A plugin that displays AT-SPI events emitted by a target
-          application as they occur
+          <link xref="quick_select_plugin">Quick Select</link> A plugin that provides global hotkeys for quickly
+          selecting accessible widgets in <app>Accerciser</app>'s desktop tree view
         </p>
       </item>
       <item>
@@ -102,12 +108,6 @@
         <p>
           <link xref="ipython_plugin">IPython Console</link> A plugin that provides a full, interactive Python
           shell with access to selected accessible widgets of a target application
-        </p>
-      </item>
-      <item>
-        <p>
-          <link xref="quick_select_plugin">Quick Select</link> A plugin that provides global hotkeys for quickly
-          selecting accessible widgets in <app>Accerciser</app>'s desktop tree view
         </p>
       </item>
     </list>

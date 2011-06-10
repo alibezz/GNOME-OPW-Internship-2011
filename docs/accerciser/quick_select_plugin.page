@@ -1,7 +1,7 @@
 <page xmlns="http://projectmallard.org/1.0/" type="topic" id="quick_select_plugin">
   <info>
     <link type="guide" xref="index#examining_a11y" />
-    <title type="sort">4. Quick Select Plugin</title>
+    <title type="sort">5. Quick Select Plugin</title>
     <link type="next" xref="api_browser_plugin" />
     <desc>
       Exploring <app>Accerciser</app> with useful global hotkeys
@@ -31,7 +31,8 @@
   </p>
   <p>
     The Quick Select Plugin provides two global hotkeys. Pressing <key>ctrl</key>+<key>alt</key>+<key>a</key>
-    selects the last focused accessible widget in the Tree View. Pressing <key>ctrl</key>+<key>alt</key>+<key>t</key>
-    selects the accessible widget under the pointer in the Tree View (PENDING Is it working?).
+    selects the last focused accessible widget in the Tree View. Pressing <key>ctrl</key>+<key>alt</key>+<key>/</key>
+    selects the accessible widget under the pointer in the Tree View and highlights it in the target application.
+    (PENDING Is ctrl+alt+t working?).
   </p> 
 </page>

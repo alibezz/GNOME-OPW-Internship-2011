@@ -159,8 +159,7 @@
     <title>Creating a Viewport Plugin</title>
     <p>
       We will create a viewport plugin that allows quick testing of the
-      "click" action in accessible items that support the Action interface
-      (read more about it in the Interface Viewer Plugin section PENDING link)
+      "click" action in accessible items that support the AT-SPI Action interface
       and have an action named "click". It will be a simple button that, once
       clicked, does the "click" action in the accessible. 
     </p>

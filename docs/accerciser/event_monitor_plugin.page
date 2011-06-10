@@ -1,7 +1,7 @@
 <page xmlns="http://projectmallard.org/1.0/" type="topic" id="event_monitor_plugin">
   <info>
     <link type="guide" xref="index#examining_a11y" />
-    <title type="sort">3. Event Monitor Plugin</title>
+    <title type="sort">4. Event Monitor Plugin</title>
     <link type="next" xref="quick_select_plugin" />
     <desc>
       Monitoring AT-SPI events as they occur on the applications

@@ -2,7 +2,7 @@
   <info>
     <link type="guide" xref="index#examining_a11y" />
     <title type="sort">1. Tree View</title>
-    <link type="next" xref="validator_plugin" />
+    <link type="next" xref="interface_viewer" />
     <desc>
       Exploring accessible applications on the desktop
     </desc>
