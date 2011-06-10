@@ -143,15 +143,25 @@
 
     <section id="running_accerciser">
       <title>Running <app>Accerciser</app></title>
-
-      <p>
-        PENDING: Talk to the community to discover essential differences between running it
-        in GNOME 3/GNOME 2. Use bnitz instructions:
-      
-        globally enable accessibilty /
-        single application by setting GTK_MODULES=canberra-gtk-module:gail:atk-bridge
-       +++ Don't forget to say that you need to run accerciser *and* the target
-       app to examine it.
-      </p>
+        <p>
+          To start <app>Accerciser</app>, type <cmd>accerciser</cmd> in a terminal window or
+          within the Run dialog and then press <key>Return</key>.
+        </p>
+        <p>
+          After that, you can use <app>Accerciser</app> to inspect any accessible item shown in the
+          <link xref="desktop_tree_view">Tree View</link>'s hierarchy. To select an item, you can
+          navigate through this hierarchy: unfolding a tree node reveals its immediate children while
+          folding it hides them. After selecting an item, investigate it using one of <app>Accerciser</app>'s
+          plugins.
+        </p>
+        <p> 
+          <app>Accerciser</app> allows bookmarking selected items for later examining. This is helpful when
+          the target application must be restarted - after rebuilding it, for example. To bookmark the currently
+          selected item, do <guiseq><gui>Bookmarks</gui><gui>Add Bookmark</gui></guiseq> or press <key>Ctrl</key>+<key>d</key>.
+          Bookmarks to accessible items in <app>Accerciser</app> are defined by an application name and a "path" in the
+          application's internal accessible hierarchy to the bookmarked accessible. When the target application is in a
+          different state - i.e. multiple top level frames -, the path might not be correct. Bookmarks could be managed
+          by accessing the bookmark editing dialog through <guiseq><gui>Bookmarks</gui><gui>Edit Bookmarks</gui></guiseq>.
+        </p>
     </section>
 </page>
