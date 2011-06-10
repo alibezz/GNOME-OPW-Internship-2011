@@ -45,9 +45,8 @@
   <p>
     The generated report is interactive. Therefore, you can double-click any
     line of it to check which of the target application widgets is causing the reported error. After
-    double-clicking the error, the corresponding widget will appear selected in the target 
-    application tree view PENDING (link to a section that explains this tree) and highlighted in
-    the target application.  
+    double-clicking the error, the corresponding widget will appear selected in the <link xref="desktop_tree_view">
+    Tree View</link> and highlighted in the target application.  
   </p>  
   <figure>
     <title>Selecting errors with the AT-SPI Validator Plugin</title>
@@ -68,8 +67,8 @@
   <section id="running_at_spi_validator">
       <title>Running the AT-SPI Validator Plugin</title>
       <p>
-        To run the AT-SPI Validator Plugin, select an item in the desktop tree view PENDING (link to 
-        a section that explains this tree). This item can either be a target application 
+        To run the AT-SPI Validator Plugin, select an item in the Tree View.
+        This item can either be a target application 
         or one of its widgets. The validator will generate the report with respect to
         the selected item and all of its descendant widgets in the tree hierarchy.
       </p>
