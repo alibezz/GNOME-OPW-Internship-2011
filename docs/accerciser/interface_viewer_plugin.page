@@ -48,7 +48,7 @@
     item's role and its name - since the one in the example doesn't have a name, it won't appear. After that, all
     AT-SPI interfaces covered by the plugin appear listed. The ones provided by the item are "Accessible", "Action", 
     "Component", "Selection", and "Text". In the figure, the first three were explored, allowing interaction with 
-    the "click" action provided by the item and access to some of its information, such as number of children 
+    the "click" action provided by the item ("Action") and access to some of its information, such as number of children 
     ("Accessible") and absolute position in the desktop ("Component").
   </p>
   <p>
@@ -56,4 +56,14 @@
     can either consult the <link href="http://developer.gnome.org/at-spi-cspi/stable/">AT-SPI C Bindings Reference Manual</link>
     or the <link href="http://developer.gnome.org/libatspi/2.1/">libatspi Reference Manual</link>.
   </p>
+
+   <section id="running_interface_viewer">
+     <title>Running the Interface Viewer Plugin</title>
+     <p>
+       The first step to run the Interface Viewer Plugin is to select an item in the <link xref="desktop_tree_view">
+       Tree View</link>. After that, its implemented interfaces will automatically appear as sensitive in the plugin's
+       panel. Click each one of these interfaces to either retrieve their provided information or to interact with 
+       available methods.
+     </p>   
+   </section>
 </page>

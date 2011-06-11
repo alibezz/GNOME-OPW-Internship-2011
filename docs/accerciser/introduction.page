@@ -33,7 +33,7 @@
   </p>
   <p>
     By default, <app>Accerciser</app>'s main interface is composed by three sections:
-    a tree view of the entire desktop accessible hierarchy and two plugin areas.
+    a <link xref="desktop_tree_view">Tree View</link> of the entire desktop accessible hierarchy and two plugin areas.
     If you prefer to see all plugins in a single area, dividing <app>Accerciser</app>'s
     interface in two sections instead of three, type <key>ctrl</key>+<key>t</key>. To
     re-divide it in three sections, just press <key>ctrl</key>+<key>t</key> again.

@@ -26,7 +26,7 @@
   <p>
     The AT-SPI Validator Plugin generates a report with accessibility
     issues related to a target application. Besides listing the errors, the report includes
-    their severity levels and explanations for each specific problem identified.
+    their severity levels and a little description for each specific problem identified.
   </p>
    <figure>
     <title>AT-SPI Validator Plugin</title>
@@ -48,7 +48,7 @@
     double-clicking the error, the corresponding widget will appear selected in the <link xref="desktop_tree_view">
     Tree View</link> and highlighted in the target application.  
   </p>  
-  <figure>
+  <!--figure>
     <title>Selecting errors with the AT-SPI Validator Plugin</title>
     <desc>
       Double-click an error line in the AT-SPI Validator Plugin to find which of
@@ -60,17 +60,16 @@
         the target application widgets is causing it.
       </p>
     </media>
-  </figure>
+  </figure -->
 
   <section id="running_at_spi_validator">
       <title>Running the AT-SPI Validator Plugin</title>
       <p>
         To run the AT-SPI Validator Plugin, select an item in the Tree View.
-        This item can either be a target application 
-        or one of its widgets. The validator will generate the report with respect to
-        the selected item and all of its descendant widgets in the tree hierarchy.
+        The validator will generate the report with respect to the selected
+        item and all of its descendant widgets in the tree hierarchy.
       </p>
-      <figure>
+      <!-- figure>
         <title>Selecting an item in the desktop tree view</title>
     <desc>
       To run the AT-SPI Validator Plugin, select either an application or one of its widgets in the
@@ -82,21 +81,21 @@
         desktop tree view.
       </p>
     </media>
-  </figure>
+  </figure -->
 
 
       <p>
-        After selecting an item in the desktop tree view, choose a validation schema in the combobox 
-        and press the <cmd>Validate</cmd> button to start generating the report. If you want to cancel
-        the execution, just press the <cmd>Validate</cmd> button again.
+        After selecting an item, choose a validation schema in the combobox and press the <cmd>Validate</cmd>
+        button to start generating the report. If you want to cancel the execution, just press the <cmd>Validate</cmd>
+        button again.
       </p>
       <p>
         If you want to save the generated report in your system, just click the <cmd>Save</cmd> button.
-        To clear the validation screen, you just need to press the <cmd>Clear</cmd> button.
+        To clear the validation screen, press the <cmd>Clear</cmd> button.
       </p>
       <p>
-        To get information about an error in the generated report, make sure the corresponding item is
-        selected and press the <cmd>Help</cmd> button.
+        To get more information about an error in the generated report, make sure the corresponding item is
+        selected and press the <cmd>Help</cmd> button. It will open a Help Page in your default browser.
       </p>        
   </section>
 </page>

@@ -149,13 +149,11 @@
         </p>
         <p>
           After that, you can use <app>Accerciser</app> to inspect any accessible item shown in the
-          <link xref="desktop_tree_view">Tree View</link>'s hierarchy. To select an item, you can
-          navigate through this hierarchy: unfolding a tree node reveals its immediate children while
-          folding it hides them. After selecting an item, investigate it using one of <app>Accerciser</app>'s
-          plugins.
+          <link xref="desktop_tree_view">Tree View</link>'s hierarchy. Select an item and investigate
+          it using one of <app>Accerciser</app>'s plugins.
         </p>
         <p> 
-          <app>Accerciser</app> allows bookmarking selected items for later examining. This is helpful when
+          <app>Accerciser</app> also allows bookmarking selected items for later examining. This is helpful when
           the target application must be restarted - after rebuilding it, for example. To bookmark the currently
           selected item, do <guiseq><gui>Bookmarks</gui><gui>Add Bookmark</gui></guiseq> or press <key>Ctrl</key>+<key>d</key>.
           Bookmarks to accessible items in <app>Accerciser</app> are defined by an application name and a "path" in the
