@@ -60,8 +60,4 @@
       Be aware that nodes with many children take a long time to expand.
     </p>
   </note>
-
-  <p>
-    PENDING Ask the community about Refresh Registry/Refresh Node (shouldn't it be automatic?)
-  </p>
 </page>

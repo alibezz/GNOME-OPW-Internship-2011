@@ -24,8 +24,7 @@
   </info>
   <title> IPython Console Plugin</title>
   <p>
-    The IPython Console Plugin is a fully-fledged <link href="http://ipython.github.com/ipython-doc/">IPython</link> (PENDING
-    change this link)
+    The IPython Console Plugin is a fully-fledged <link href="http://ipython.github.com/ipython-doc/">IPython</link>
     console that allows real-time interaction with a selected item in the <link xref="desktop_tree_view">Tree View</link>.
     When you want to check an information related to any
     accessible item and <app>Accerciser</app>'s default plugins can't help, try the IPython Console Plugin.

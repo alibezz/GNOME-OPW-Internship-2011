@@ -33,6 +33,5 @@
     The Quick Select Plugin provides two global hotkeys. Pressing <key>ctrl</key>+<key>alt</key>+<key>a</key>
     selects the last focused accessible widget in the Tree View. Pressing <key>ctrl</key>+<key>alt</key>+<key>/</key>
     selects the accessible widget under the pointer in the Tree View and highlights it in the target application.
-    (PENDING Is ctrl+alt+t working?).
   </p> 
 </page>

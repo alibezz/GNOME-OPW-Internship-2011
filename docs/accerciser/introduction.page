@@ -61,8 +61,8 @@
       to see what AT-SPI is providing to their applications. Automated UI test
       developers are also benefited by <app>Accerciser</app>, since it exposes different events
       that could be expected from their target application. <app>Accerciser</app> default plugins,
-      such as the Interface Viewer Plugin (PENDING section) and the <link xref="event_monitor_plugin">
-      Event Monitor Plugin</link>, are useful in both cases.
+      such as the <link xref="interface_viewer">Interface Viewer Plugin</link> and the
+      <link xref="event_monitor_plugin">Event Monitor Plugin</link>, are useful in both cases.
     </p>
   </section>
 

@@ -62,8 +62,6 @@
     </media>
   </figure>
 
-
-
   <section id="running_at_spi_validator">
       <title>Running the AT-SPI Validator Plugin</title>
       <p>
@@ -97,7 +95,8 @@
         To clear the validation screen, you just need to press the <cmd>Clear</cmd> button.
       </p>
       <p>
-        PENDING: Explain Help button when the documentation for the errors gets ready.
-      </p>
+        To get information about an error in the generated report, make sure the corresponding item is
+        selected and press the <cmd>Help</cmd> button.
+      </p>        
   </section>
 </page>
