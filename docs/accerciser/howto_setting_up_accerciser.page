@@ -38,6 +38,17 @@
         source code can either be downloaded from <link href="http://ftp.gnome.org/pub/GNOME/sources/accerciser/">gnome.org
         FTP site</link> or cloned from <link href="http://git.gnome.org/browse/accerciser">gnome.org GIT repository</link>.
       </p>
+
+      <note style="caution">
+        <p>
+         If you use GNOME 2, it is likely that <app>Accerciser</app>'s versions >= 3.1.2 will not work for you,
+         since they use <link href="http://developer.gnome.org/gio/stable/ch28.html">gsettings instead of gconftool-2</link>.
+         If this is the case, try either installing an older <app>Accerciser</app> version or updating your Desktop Environment
+         to GNOME 3.
+       </p>
+      </note>
+
+
       <p>
         After getting <app>Accerciser</app>, install it using the following commands:
       </p>
