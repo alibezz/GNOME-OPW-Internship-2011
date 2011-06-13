@@ -37,7 +37,7 @@
       Given a selected item in the Tree View, all of its AT-SPI interfaces will be shown as sensitive
       in the Interface Viewer Plugin. Those unsupported will appear grayed out.
     </desc>
-    <media type="image" mime="image/png" width="1100" height="450" src="figures/interface_viewer_plugin.png">
+    <media type="image" mime="image/png" width="800" height="450" src="figures/interface_viewer_plugin.png">
       <p>Given a selected item in the Tree View, all of its AT-SPI interfaces will be shown as sensitive
       in the Interface Viewer Plugin. Those unsupported will appear grayed out.</p>
     </media>
