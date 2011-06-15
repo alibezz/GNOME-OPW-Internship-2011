@@ -4,7 +4,7 @@
     <title type="sort">4. Event Monitor Plugin</title>
     <link type="next" xref="quick_select_plugin" />
     <desc>
-      Monitoring AT-SPI events as they occur on the applications
+      Monitoring accessible events as they occur
     </desc>
     <credit type="author">
       <name>Eitan Isaacson</name>

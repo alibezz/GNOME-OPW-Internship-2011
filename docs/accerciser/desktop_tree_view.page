@@ -1,10 +1,10 @@
 <page xmlns="http://projectmallard.org/1.0/" type="topic" id="desktop_tree_view">
   <info>
     <link type="guide" xref="index#examining_a11y" />
-    <title type="sort">1. Tree View</title>
+    <title type="sort">1. Application Tree View</title>
     <link type="next" xref="interface_viewer" />
     <desc>
-      Exploring accessible applications on the desktop
+      Exploring the accessible hierarchy of the desktop
     </desc>
     <credit type="author">
       <name>Eitan Isaacson</name>
@@ -22,11 +22,11 @@
       <p>Creative Commons Share Alike 3.0</p>
     </license>
   </info>
-  <title>Tree View</title>
+  <title>Application Tree View</title>
 
   <p>
-    <app>Accerciser</app>'s interface contains a Tree View that covers all accessible applications
-    currently running on the desktop. To create the Tree View, <app>Accerciser</app> first 
+    <app>Accerciser</app>'s interface contains a Application Tree View that covers all accessible applications
+    currently running on the desktop. To create the Application Tree View, <app>Accerciser</app> first 
     uses the AT-SPI's registry daemon to get all accessible applications that
     are currently running on the desktop. This daemon is responsible for keeping track of all the
     accessible applications on the desktop and forwarding X events over the AT-SPI D-Bus. 
@@ -37,22 +37,22 @@
   </p>
 
   <figure>
-    <title>Tree View</title>
+    <title>Application Tree View</title>
     <desc>
-      <app>Accerciser</app>'s Tree View represents the interface of each accessible application
+      <app>Accerciser</app>'s Application Tree View represents the interface of each accessible application
       running on the desktop as a widget hierarchical tree. 
     </desc>
     <media type="image" mime="image/png" width="400" height="600" src="figures/tree_view_accerciser.png">
-      <p><app>Accerciser</app>'s Tree View represents the interface of each accessible application
+      <p><app>Accerciser</app>'s Application Tree View represents the interface of each accessible application
       running on the desktop as a widget hierarchical tree.</p>
     </media>
   </figure>
 
 
   <p>
-    The first node of each tree represented in the Tree View is the application itself. When you expand a node, you
+    The first node of each tree represented in the Application Tree View is the application itself. When you expand a node, you
     can see all of its children widgets, which allows a hierarchical view of the application's interface. For each node in
-    the Tree View, <app>Accerciser</app> provides some basic information, such as its name, role and number of 
+    the Application Tree View, <app>Accerciser</app> provides some basic information, such as its name, role and number of 
     children. 
   </p>
   <note style="caution">

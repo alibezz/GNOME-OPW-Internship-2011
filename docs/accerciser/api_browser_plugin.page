@@ -4,7 +4,7 @@
     <title type="sort">1. API Browser Plugin</title>
     <link type="next" xref="ipython_plugin" />
     <desc>
-      Verifying interfaces, methods, and properties in applications
+      Verifying interfaces, methods, and properties
     </desc>
     <credit type="author">
       <name>Eitan Isaacson</name>

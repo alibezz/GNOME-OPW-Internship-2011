@@ -6,7 +6,7 @@ int main (int argc, char *argv[]) {
 
   /*FIXME  Clean this main */
 
-  GtkWidget *window, *entry, *grid, *combo1, *combo2, *combo3, *frame;
+  GtkWidget *window, *entry, *grid, *frame, *combo1, *combo2, *combo3;
   gtk_init(&argc, &argv);
 
   /* Creates main window */
@@ -25,6 +25,7 @@ int main (int argc, char *argv[]) {
   /*FIXME Regulate paramaters via xml */
   /* Creates favorite bands' combo and attaches to grid */
   combo1 = new_combo_box_with_text("Velvet Underground", "Joy Division", "My Bloody Valentine");
+
   g_signal_connect( G_OBJECT(combo1), "changed", G_CALLBACK( cb_changed ), GTK_ENTRY_BUFFER(buffer));
   frame = gtk_frame_new("Favorite Bands");
   gtk_container_add(GTK_CONTAINER(frame), combo1);
