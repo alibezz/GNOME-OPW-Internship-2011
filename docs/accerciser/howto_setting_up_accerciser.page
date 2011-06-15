@@ -35,16 +35,14 @@
       <title>Installing <app>Accerciser</app> manually</title>
        <p>
         To install <app>Accerciser</app> manually, you will need to download it first. <app>Accerciser</app>'s
-        source code can either be downloaded from <link href="http://ftp.gnome.org/pub/GNOME/sources/accerciser/">gnome.org
-        FTP site</link> or cloned from <link href="http://git.gnome.org/browse/accerciser">gnome.org GIT repository</link>.
+        source code can either be downloaded from <link href="http://ftp.gnome.org/pub/GNOME/sources/accerciser/">the gnome.org 
+        FTP site</link> or cloned from <link href="http://git.gnome.org/browse/accerciser">the gnome.org GIT repository</link>.
       </p>
 
       <note style="caution">
         <p>
-         If you use GNOME 2, it is likely that <app>Accerciser</app>'s versions >= 3.1.2 will not work for you,
-         since they use <link href="http://developer.gnome.org/gio/stable/ch28.html">gsettings instead of gconftool-2</link>.
-         If this is the case, try either installing an older <app>Accerciser</app> version or updating your Desktop Environment
-         to GNOME 3.
+         If you are not using GNOME 3, you may find that <app>Accerciser</app> version 3 or later is not compatible with your
+         environment.
        </p>
       </note>
 
@@ -60,98 +58,11 @@
       </steps>
       <p>
         If you find any problems installing <app>Accerciser</app> on your system, it is likely that some 
-        of its dependencies are missing. Check section below to make sure you have all <app>Accerciser</app>
-        dependencies properly installed.
+        of its dependencies are missing. Check <link href="https://live.gnome.org/Accerciser/#Requirements">
+        <app>Accerciser</app>'s wiki</link> to make sure you have all dependencies properly installed.
       </p>
     </section>
-  
-    <section id="accerciser_dependencies">
-      <title><app>Accerciser</app> dependencies</title>
-      <p>
-        On a Red Hat based distro, they are:
-      </p>
-      <list>
-        <item>
-          <p>
-            python >= 2.4
-          </p>
-        </item> 
-        <item>
-          <p>
-            pygtk2 >= 2.8
-          </p>
-        </item> 
-        <item>
-          <p>
-            gnome-python2 >= 2.12
-          </p>
-        </item> 
-        <item>
-          <p>
-            pyatspi
-          </p>
-        </item> 
-        <item>
-          <p>
-            gnome-python2-rsvg
-          </p>
-        </item>
-        <item>
-          <p>
-            gnome-python2-libwnck >= 2.14
-          </p>
-        </item>
-        <item>
-          <p>
-            GConf2
-          </p>
-        </item>
-      </list>
-      <p>
-        On a Debian based distro, they are:
-      </p>
-      <list>
-        <item>
-          <p>
-            python >= 2.4
-          </p>
-        </item> 
-        <item>
-          <p>
-            python-gtk2 >= 2.8
-          </p>
-        </item> 
-        <item>
-          <p>
-            python-gnome2 >= 2.14
-          </p>
-        </item> 
-        <item>
-          <p>
-            python-pyatspi2
-          </p>
-        </item> 
-        <item>
-          <p>
-            python-rsvg
-          </p>
-        </item>
-        <item>
-          <p>
-            python-wnck
-          </p>
-        </item>
-        <item>
-          <p>
-            gconf2 
-          </p>
-        </item>
-      </list>
-      <p>
-        <app>Accerciser</app> comes with a Python console plugin. If you intend to use it, you must have IPython installed.
-      </p>
-    </section>
-
+ 
     <section id="running_accerciser">
       <title>Running <app>Accerciser</app></title>
         <p>
@@ -160,17 +71,8 @@
         </p>
         <p>
           After that, you can use <app>Accerciser</app> to inspect any accessible item shown in the
-          <link xref="desktop_tree_view">Tree View</link>'s hierarchy. Select an item and investigate
+          <link xref="desktop_tree_view">Application Tree View</link>'s hierarchy. Select an item and investigate
           it using one of <app>Accerciser</app>'s plugins.
-        </p>
-        <p> 
-          <app>Accerciser</app> also allows bookmarking selected items for later examining. This is helpful when
-          the target application must be restarted - after rebuilding it, for example. To bookmark the currently
-          selected item, do <guiseq><gui>Bookmarks</gui><gui>Add Bookmark</gui></guiseq> or press <key>Ctrl</key>+<key>d</key>.
-          Bookmarks to accessible items in <app>Accerciser</app> are defined by an application name and a "path" in the
-          application's internal accessible hierarchy to the bookmarked accessible. When the target application is in a
-          different state - i.e. multiple top level frames -, the path might not be correct. Bookmarks could be managed
-          by accessing the bookmark editing dialog through <guiseq><gui>Bookmarks</gui><gui>Edit Bookmarks</gui></guiseq>.
         </p>
     </section>
 </page>

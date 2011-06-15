@@ -33,11 +33,11 @@
   </p>
 
   <p>
-    By default, <app>Accerciser</app>'s main interface is composed by three sections:
-    a <link xref="desktop_tree_view">Tree View</link> of the entire desktop accessible hierarchy and two plugin areas.
-    If you prefer to see all plugins in a single area, dividing <app>Accerciser</app>'s
-    interface in two sections instead of three, type <key>ctrl</key>+<key>t</key>. To
-    re-divide it in three sections, just press <key>ctrl</key>+<key>t</key> again.
+    By default, <app>Accerciser</app>'s main interface is comprised of three sections:
+    a tree view of the entire desktop accessible hierarchy, namely <link xref="desktop_tree_view">
+    Application Tree View</link>, and two plugin areas. If you prefer to see all plugins in a single
+    area, dividing <app>Accerciser</app>'s interface in two sections instead of three, type <key>ctrl
+    </key>+<key>t</key>. To re-divide it in three sections, just press <key>ctrl</key>+<key>t</key> again.
   </p>
  
   <figure>
@@ -55,15 +55,11 @@
   <section id="more_about_gnome_accessibility">
     <title><app>Accerciser</app>'s intended audience</title>
     <p>
-      <app>Accerciser</app> fits the needs of many different audiences. It can be used by user interface
-      developers as a means of ensuring that their applications are providing all of their features
-      through AT-SPI. The <link xref="validator_plugin">AT-SPI Validator Plugin</link> is useful for that.
-      Also, it can be used by assistive technology developers
-      to see what AT-SPI is providing to their applications. Automated UI test
-      developers are also benefited by <app>Accerciser</app>, since it exposes different events
-      that could be expected from their target application. <app>Accerciser</app> default plugins,
-      such as the <link xref="interface_viewer">Interface Viewer Plugin</link> and the
-      <link xref="event_monitor_plugin">Event Monitor Plugin</link>, are useful in both cases.
+      <app>Accerciser</app> fits the needs of many different audiences. User interface developers
+      use it to ensure that their applications are providing all of their features through AT-SPI. 
+      Assistive technology developers are able to see what AT-SPI is providing to their applications.
+      Automated UI test developers find <app>Accerciser</app> beneficial since it exposes different
+      events that could be expected from their target application. 
     </p>
   </section>
 
@@ -71,44 +67,44 @@
     <title><app>Accerciser</app>'s plugin architecture</title>
     <p>
       <app>Accerciser</app> has an extensible, plugin-based architecture.
-      It has a fairly small core and most of its features are part of its
+      Its core code is fairly small and most of its features are part of 
       default plugins: 
     </p>
     <list>
       <item>
         <p>
-          <link xref="interface_viewer">Interface Viewer</link> A plugin that lets you explore the AT-SPI 
-          interfaces provided by each accessible widget of a target application
+          <link xref="interface_viewer">Interface Viewer</link> - A plugin that lets you explore the AT-SPI 
+          interfaces provided by each accessible widget of a target application.
         </p>
       </item>
       <item>
         <p>
-          <link xref="validator_plugin">AT-SPI Validator</link> A plugin that applies tests to verify the
-          accessibility of a target application
+          <link xref="validator_plugin">AT-SPI Validator</link> - A plugin that applies tests to verify the
+          accessibility of a target application.
         </p>
       </item>
       <item>
         <p>
-          <link xref="event_monitor_plugin">Event Monitor</link> A plugin that displays AT-SPI events emitted by a target
-          application as they occur
+          <link xref="event_monitor_plugin">Event Monitor</link> - A plugin that displays AT-SPI events emitted by a target
+          application as they occur.
         </p>
       </item>
       <item>
         <p>
-          <link xref="quick_select_plugin">Quick Select</link> A plugin that provides global hotkeys for quickly
-          selecting accessible widgets in <app>Accerciser</app>'s desktop tree view
+          <link xref="quick_select_plugin">Quick Select</link> - A plugin that provides global hotkeys for quickly
+          selecting accessible widgets in <app>Accerciser</app>'s Application Tree View.
         </p>
       </item>
       <item>
         <p>
-          <link xref="api_browser_plugin">API Browser</link> A plugin that shows the interfaces, methods, and 
-          attributes available on each accessible widget of a target application
+          <link xref="api_browser_plugin">API Browser</link> - A plugin that shows the interfaces, methods, and 
+          attributes available on each accessible widget of a target application.
         </p>
       </item>
       <item>
         <p>
-          <link xref="ipython_plugin">IPython Console</link> A plugin that provides a full, interactive Python
-          shell with access to selected accessible widgets of a target application
+          <link xref="ipython_plugin">IPython Console</link> - A plugin that provides a full, interactive Python
+          shell with access to selected accessible widgets of a target application.
         </p>
       </item>
     </list>
@@ -119,7 +115,7 @@
     <title>More about Accessibility</title>
     <p>
        Accessibility is a core value that should touch all aspects of a Desktop
-       Environment. To help achieving it in GNOME, some libraries were developed,
+       Environment. To help achieve it in GNOME, some libraries were developed,
        such as ATK and AT-SPI. Though originated in GNOME, these libraries are now
        also used in other Desktop Environments. To learn more about Accessibility
        Libraries for GNU/UNIX systems, you can consult:
@@ -127,14 +123,14 @@
     <list>
       <item>
         <p>
-          <link href="http://developer.gnome.org/atk/">ATK Accessibility Toolkit</link>
+          <link href="http://developer.gnome.org/atk/">ATK Accessibility Toolkit</link> - 
           ATK provides the set of accessibility interfaces that are implemented by other toolkits and applications.
           Using the ATK interfaces, accessibility tools have full access to view and control running applications.
         </p>
       </item>
       <item>
         <p>
-          <link href="http://developer.gnome.org/at-spi-cspi/stable/">AT-SPI</link>
+          <link href="http://developer.gnome.org/at-spi-cspi/stable/">AT-SPI</link> - 
           AT-SPI is the primary service interface by which assistive technologies query and receive 
           notifications from running applications. Additional material is available from the 
           <link href="http://accessibility.kde.org/developer/atk.php#coreclasses">KDE Accessibility Development Community</link>.  
@@ -142,21 +138,20 @@
       </item>
       <item>
         <p>
-          <link href="http://library.gnome.org/users/gnome-access-guide/stable/">GNOME Desktop Accessibility Guide</link>
-          A guide for anyone who is interested in how GNOME Desktop
-          supports people with disabilities from an end user point of view.
+          <link href="http://library.gnome.org/users/gnome-access-guide/stable/">GNOME Desktop Accessibility Guide</link> -
+          A guide for anyone interested in how the GNOME Desktop supports the needs of users with disabilities.
         </p>
       </item>
       <item>
         <p>
-          <link href="http://developer.gnome.org/accessibility-devel-guide/stable/">GNOME Accessibility Developer's Guide</link>
+          <link href="http://developer.gnome.org/accessibility-devel-guide/stable/">GNOME Accessibility Developer's Guide</link> - 
           A guide for developers who want to ensure their applications are accessible to the widest audience of users. 
         </p>
       </item>
       <item>
         <p>
-          <link href="http://projects.gnome.org/accessibility/">GNOME Accessibility Web Page</link>
-          The GNOME Accessibility Web Page includes the guides listed above along with many other useful links
+          <link href="http://projects.gnome.org/accessibility/">GNOME Accessibility Project</link> - 
+          The GNOME Accessibility Project includes the guides listed above along with many other useful links
           for users, developers and system administrators.
         </p>
       </item>
