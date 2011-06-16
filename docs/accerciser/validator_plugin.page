@@ -25,8 +25,8 @@
   <title> AT-SPI Validator Plugin</title>
   <p>
     The AT-SPI Validator Plugin generates a report with accessibility
-    issues related to a target application. Besides listing the errors, the report includes
-    their severity levels and a little description for each specific problem identified.
+    issues related to a target application. For each error, the report
+    includes the severity level and a brief description.
   </p>
    <figure>
     <title>AT-SPI Validator Plugin</title>
@@ -42,53 +42,25 @@
     </media>
   </figure>
 
-  <p>
-    The generated report is interactive. Therefore, you can double-click any
-    line of it to check which of the target application widgets is causing the reported error. After
-    double-clicking the error, the corresponding widget will appear selected in the <link xref="desktop_tree_view">
-    Tree View</link> and highlighted in the target application.  
-  </p>  
-  <!--figure>
-    <title>Selecting errors with the AT-SPI Validator Plugin</title>
-    <desc>
-      Double-click an error line in the AT-SPI Validator Plugin to find which of
-      the target application widgets is causing it.
-    </desc>
-    <media type="image" mime="image/png" width="800" height="500" src="figures/validator_app_tree.png">
-      <p>
-        Double-click an error line in the AT-SPI Validator Plugin to find which of
-        the target application widgets is causing it.
-      </p>
-    </media>
-  </figure -->
-
   <section id="running_at_spi_validator">
       <title>Running the AT-SPI Validator Plugin</title>
       <p>
-        To run the AT-SPI Validator Plugin, select an item in the Tree View.
+        To run the AT-SPI Validator Plugin, select an item in the Application Tree View.
         The validator will generate the report with respect to the selected
         item and all of its descendant widgets in the tree hierarchy.
       </p>
-      <!-- figure>
-        <title>Selecting an item in the desktop tree view</title>
-    <desc>
-      To run the AT-SPI Validator Plugin, select either an application or one of its widgets in the
-      desktop tree view.
-    </desc>
-    <media type="image" mime="image/png" width="800" height="500" src="figures/accessible_tree.png">
-      <p>
-        To run the AT-SPI Validator Plugin, select either an application or one of its widgets in the
-        desktop tree view.
-      </p>
-    </media>
-  </figure -->
-
 
       <p>
         After selecting an item, choose a validation schema in the combobox and press the <cmd>Validate</cmd>
         button to start generating the report. If you want to cancel the execution, just press the <cmd>Validate</cmd>
         button again.
       </p>
+
+      <p>
+        The generated report is interactive. Therefore, you can double-click any error found to check which of the target
+        application widgets is causing it. The corresponding widget will then appear selected in the <link xref="desktop_tree_view">
+        Application Tree View</link> and highlighted in the target application.  
+      </p>  
       <p>
         If you want to save the generated report in your system, just click the <cmd>Save</cmd> button.
         To clear the validation screen, press the <cmd>Clear</cmd> button.
