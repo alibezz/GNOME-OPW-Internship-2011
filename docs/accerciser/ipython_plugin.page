@@ -25,7 +25,7 @@
   <title> IPython Console Plugin</title>
   <p>
     The IPython Console Plugin is a fully-fledged <link href="http://ipython.github.com/ipython-doc/">IPython</link>
-    console that allows real-time interaction with a selected item in the <link xref="desktop_tree_view">Tree View</link>.
+    console that allows real-time interaction with a selected item in the <link xref="desktop_tree_view">Application Tree View</link>.
     When you want to check an information related to any
     accessible item and <app>Accerciser</app>'s default plugins can't help, try the IPython Console Plugin.
   </p>
@@ -41,7 +41,7 @@
     <title>Running the IPython Console Plugin</title>
     <p>
       The first step to run the IPython Console Plugin is to select one of the accessible items
-      listed in the Tree View - either an application or a widget. In the plugin, the
+      listed in the Application Tree View - either an application or a widget. In the plugin, the
       selected item will correspond to the variable 'acc'. 
     </p>
     <p>     
@@ -54,12 +54,12 @@
     <title>Investigating selected items with the IPython Console Plugin</title>
     <desc>
       The IPython Console Plugin lets you investigate methods, constants, and properties
-      related to a selected item in the Tree View. 
+      related to a selected item in the Application Tree View. 
     </desc>
     <media type="image" mime="image/png" width="800" height="500" src="figures/IPython_plugin.png">
       <p>
        The IPython Console Plugin lets you investigate methods, constants, and properties
-       related to a selected item in the Tree View. 
+       related to a selected item in the Application Tree View. 
       </p>
     </media>
   </figure>

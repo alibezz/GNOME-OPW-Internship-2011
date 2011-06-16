@@ -120,8 +120,8 @@
     <title>Creating a Console Plugin</title>
     <p>
       We will create a console plugin to display focus changes emitted by an accessible
-      item with a "push button" role - remember that it's easy to check what is the role
-      of any item with <app>Accerciser</app>; you can verify it in the <link xref="desktop_tree_view">Tree View</link>,
+      item with a "push button" role - remember that it is easy to check what is the role
+      of any item with <app>Accerciser</app>; you can verify it in the <link xref="desktop_tree_view">Application Tree View</link>,
       for example. 
     </p>
     <p>
