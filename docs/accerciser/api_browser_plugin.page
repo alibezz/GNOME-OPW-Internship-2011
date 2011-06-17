@@ -52,8 +52,8 @@
       one you were looking for. 
     </p>
     <p>
-      After selecting a widget in the Application Tree View, select one of its implemented AT-SPI
-      interfaces in the combobox. All public methods of the selected interface will be
+      After that, select one of the widget's interfaces in the combobox.
+      All public methods of the selected interface will be
       listed in the plugin's leftmost column. All public properties, with their 
       corresponding values, will be listed in the plugin's rightmost column.
     </p>  
@@ -63,5 +63,4 @@
       them again, re-select this checkbox.
     </p>
   </section>
-
 </page>
