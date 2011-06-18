@@ -44,33 +44,35 @@
     <title>Configuring plugins</title>
     <p>
       After opening the Preferences Dialog, you will find a list of all available plugins, with corresponding checkboxes,
-      under the "Plugins" tab. To enable or disable a plugin, toggle its check box. Only active plugins can be accessed via 
+      under the "Plugins" tab. To enable or disable a plugin, toggle its checkbox. Only active plugins can be accessed via 
       <app>Accerciser</app>'s interface.
     </p>
     <p>
       Right-clicking on any given plugin allows you to choose its location: "Top Panel", "Bottom Panel", and "New View". Selecting "New 
       View" creates a new window for the plugin.
     </p>
-    <note style="tip">
-      <p>
-        You may bypass the Preferences dialog by using drag and drop to move a plugin from a location to another.
-      </p>
-    </note>
-  </section>
-  <section id="global_hotkey">
+
 
   <figure>
     <title>Configuring plugins' preferences</title>
     <desc>
      <app>Accerciser</app> allows you to adjust your plugins' preferences.
     </desc>
-    <media type="image" mime="image/png" width="700" height="500" src="figures/plugins.png">
+    <media type="image" mime="image/png" src="figures/plugins.png">
       <p> 
        <app>Accerciser</app> allows you to adjust your plugins' preferences.
       </p>
     </media>
   </figure>
 
+    <note style="tip">
+      <p>
+        You may bypass the Preferences dialog by using drag and drop to move a plugin from a location to another.
+      </p>
+    </note>
+  </section>
+
+  <section id="global_hotkey">
     <title>Configuring global hotkeys</title>
     <p>
       Some elements in <app>Accerciser</app> may enable certain functionalities via hotkeys. An example is the 
@@ -85,7 +87,7 @@
     <desc>
      <app>Accerciser</app> allows you to adjust your hotkeys' preferences.
     </desc>
-    <media type="image" mime="image/png" width="700" height="500" src="figures/global-hotkeys.png">
+    <media type="image" mime="image/png" src="figures/global-hotkeys.png">
       <p> 
        <app>Accerciser</app> allows you to adjust your plugin's preferences.
       </p>
@@ -106,7 +108,7 @@
     <desc>
      <app>Accerciser</app> allows you to adjust your highlighting preferences.
     </desc>
-    <media type="image" mime="image/png" width="700" height="500" src="figures/highlighting.png">
+    <media type="image" mime="image/png" src="figures/highlighting.png">
       <p> 
        <app>Accerciser</app> allows you to adjust your highlighting preferences.
       </p>
