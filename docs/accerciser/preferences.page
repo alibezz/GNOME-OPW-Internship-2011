@@ -58,6 +58,19 @@
     </note>
   </section>
   <section id="global_hotkey">
+
+  <figure>
+    <title>Configuring plugins' preferences</title>
+    <desc>
+     <app>Accerciser</app> allows you to adjust your plugins' preferences.
+    </desc>
+    <media type="image" mime="image/png" width="700" height="500" src="figures/plugins.png">
+      <p> 
+       <app>Accerciser</app> allows you to adjust your plugins' preferences.
+      </p>
+    </media>
+  </figure>
+
     <title>Configuring global hotkeys</title>
     <p>
       Some elements in <app>Accerciser</app> may enable certain functionalities via hotkeys. An example is the 
@@ -66,6 +79,19 @@
       list of all features for which hotkeys can be configured. Use the <cmd>ctrl</cmd>, <cmd>alt</cmd>, and 
       <cmd>shift</cmd> checkboxes to enable or disable these modifiers.
     </p>
+
+    <figure>
+    <title>Configuring global hotkeys' preferences</title>
+    <desc>
+     <app>Accerciser</app> allows you to adjust your hotkeys' preferences.
+    </desc>
+    <media type="image" mime="image/png" width="700" height="500" src="figures/global-hotkeys.png">
+      <p> 
+       <app>Accerciser</app> allows you to adjust your plugin's preferences.
+      </p>
+    </media>
+  </figure> 
+
    </section>
    <section id="highlighting">
      <title>Configuring widget's highlighting</title>
@@ -74,5 +100,17 @@
        highlight a specific widget in a target application. The highlighting duration, border color, and fill color can
        be customized via the Preferences dialog, under the "Highlighting" tab.
      </p>
+
+    <figure>
+    <title>Configuring highlighting preferences</title>
+    <desc>
+     <app>Accerciser</app> allows you to adjust your highlighting preferences.
+    </desc>
+    <media type="image" mime="image/png" width="700" height="500" src="figures/highlighting.png">
+      <p> 
+       <app>Accerciser</app> allows you to adjust your highlighting preferences.
+      </p>
+    </media>
+  </figure>
    </section>
 </page>
