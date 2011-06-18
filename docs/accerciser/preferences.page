@@ -24,9 +24,8 @@
   </info>
   <title> Configuring <app>Accerciser</app></title>
   <p>
-    Some elements in <app>Accerciser</app> are configurable: plugins, global hotkeys, and widget's highlighting.
-    To reconfigure any of these elements, do either <key>ctrl</key>+<key>p</key> or <guiseq><gui>Edit</gui>
-    <gui>Preferences</gui></guiseq> to open a dialog filled with configurations for them.
+    To configure plugins, hotkeys, and highlighting, do either <key>ctrl</key>+<key>p</key> or <guiseq><gui>Edit</gui>
+    <gui>Preferences</gui></guiseq> to open a dialog.
   </p>
 
   <figure>
@@ -45,19 +44,16 @@
     <title>Configuring plugins</title>
     <p>
       After opening the Preferences Dialog, you will find a list of all available plugins, with corresponding checkboxes,
-      under the "Plugins" tab. Selecting a checkbox will activate the related plugin; analogously, unselecting a checkbox
-      will inactivate it. Only active plugins can be accessed via <app>Accerciser</app>'s interface.
+      under the "Plugins" tab. To enable or disable a plugin, toggle its check box. Only active plugins can be accessed via 
+      <app>Accerciser</app>'s interface.
     </p>
     <p>
-      Right-clicking a specific plugin opens a dialog with existing layout options, such as "Top Panel" and "Bottom Panel".
-      Clicking a layout option will set it as default for the right-clicked plugin. This dialog also has a "New view" option,
-      where you can create another layout for plugins. The created layout will be set as default for the right-clicked plugin.
+      Right-clicking on any given plugin allows you to choose its location: "Top Panel", "Bottom Panel", and "New View". Selecting "New 
+      View" creates a new window for the plugin.
     </p>
     <note style="tip">
       <p>
-        You may bypass the Preferences dialog by using drag and drop to move a plugin from a layout to another. Dragging a plugin
-        either to the bottom or to the top panel will move it. Dragging a plugin to the desktop will create a new plugin layout 
-        and set it as default for the plugin.
+        You may bypass the Preferences dialog by using drag and drop to move a plugin from a location to another.
       </p>
     </note>
   </section>
@@ -66,10 +62,9 @@
     <p>
       Some elements in <app>Accerciser</app> may enable certain functionalities via hotkeys. An example is the 
       <link xref="quick_select_plugin">Quick Select Plugin</link>. The hotkey combination for each functionality
-      could be changed via the Preferences dialog, under the "Global Hotkeys" tab. Under this tab, you will find
-      a list of all available hotkey features with corresponding checkboxes for keys <key>ctrl</key>, <key>alt</key>,
-      and <key>shift</key>. Selecting a checkbox will add the related key to the hotkey; analogously, unselecting
-      a checkbox will remove it from the hotkey. 
+      can be changed via the Preferences dialog, under the "Global Hotkeys" tab. Under this tab,  you will find a
+      list of all features for which hotkeys can be configured. Use the <cmd>ctrl</cmd>, <cmd>alt</cmd>, and 
+      <cmd>shift</cmd> checkboxes to enable or disable these modifiers.
     </p>
    </section>
    <section id="highlighting">
