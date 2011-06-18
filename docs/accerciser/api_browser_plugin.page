@@ -25,8 +25,7 @@
   <title> API Browser Plugin</title>
   <p>
     Given an accessible widget selected in the <link xref="desktop_tree_view">Application Tree View</link>,
-    the API Browser Plugin shows all of its implemented AT-SPI interfaces and, for
-    each interface, all of its methods and properties.
+    the API Browser Plugin shows its implemented AT-SPI interfaces along with its methods and properties.
   </p>
 
   <figure>
@@ -46,7 +45,7 @@
   <section id="running_api_browser_plugin">
     <title>Running the API Browser Plugin</title>
     <p>
-      The first step to run the API Browser Plugin is to select an accessible widget
+      To run the API Browser Plugin, select an accessible widget
       in the Application Tree View. Double-clicking a widget highlights it in the
       application's interface, so you can be sure whether a certain widget were the
       one you were looking for. 
