@@ -28,6 +28,13 @@
     Application Tree View</link>. Since the IPython Console Plugin is an interactive Python shell, you can import any Python
     modules you want.
   </p>
+
+  <note style="tip">
+    <p>
+      Make sure you have the standalone package IPython installed in your system. Otherwise, the IPython Console Plugin will
+      not work properly.
+    </p>
+  </note>
   
   <section id="running_ipython_plugin">
     <title>Running the IPython Console Plugin</title>

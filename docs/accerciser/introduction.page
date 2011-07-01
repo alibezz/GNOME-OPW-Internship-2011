@@ -39,7 +39,14 @@
     area, dividing <app>Accerciser</app>'s interface in two sections instead of three, type <key>ctrl
     </key>+<key>t</key>. To re-divide it in three sections, just press <key>ctrl</key>+<key>t</key> again.
   </p>
- 
+
+  <note style="tip">
+    <p>
+      Make sure that accessibility suport is enabled in your desktop - otherwise,
+      <app>Accerciser</app> will not work as expected.
+    </p>
+  </note>
+
   <figure>
     <title><app>Accerciser</app></title>
     <desc>
