@@ -1,0 +1,58 @@
+Arrumar os docs (at[e domingo) com sugestoes de Mario Sanchez OK
+
+Comecar isso sexta?
+
+(03:47:07 PM) alibezz: hey Joanie!
+(03:47:14 PM) alibezz: I really would like to help with the wiki
+(03:47:31 PM) alibezz: the best practices guide.... I dunno if I have experience enough
+(03:47:47 PM) alibezz: but with the help of the #a11y people, maybe I can handle it. what do you think?
+(03:48:02 PM) joanie: best practices guide requires you know what the best practices are
+(03:49:21 PM) alibezz: guess I don`t have knowledge enough to do it
+(03:49:29 PM) joanie: sorry.
+(03:49:31 PM) alibezz: but what about the wiki?
+(03:49:31 PM) joanie: but....
+(03:49:57 PM) joanie: basically that is going through all the pages and identifying what needs to be removed
+(03:50:10 PM) joanie: and that would be quite helpful if you could take a first pass at that
+(03:50:21 PM) alibezz: count on me, ladie! xD
+(03:50:31 PM) joanie: yay!
+(03:50:36 PM) alibezz: I can do it in paralell with accerciser patches
+(03:50:40 PM) alibezz: no problems at all
+(03:50:41 PM) joanie: cool
+(03:50:51 PM) alibezz: I`m the one here who has time
+(03:50:51 PM) joanie: so basically a trick is to look for a bogus page
+(03:50:52 PM) alibezz: hehehe
+(03:51:08 PM) joanie: http://live.gnome.org/Accessibility/bogus
+(03:51:18 PM) joanie: and you'll get a 'this page doesn't exist. did you mean....'
+(03:51:21 PM) joanie: and a list of all the pages
+(03:51:34 PM) joanie: like the BonoboDeprecation pages can probably go
+(03:51:43 PM) joanie: but I'm hesitant to just delete them
+(03:51:54 PM) joanie: so having a list of what seems like it should go would be the first pass
+(03:52:01 PM) joanie: API and I could look over that
+(03:52:10 PM) alibezz: sounds good
+(03:52:13 PM) joanie: and say 'yeah delete' or propose an alternative
+(03:53:21 PM) joanie: And then the other questions are:
+(03:53:27 PM) joanie: What pages are missing that we should have?
+(03:53:35 PM) joanie: How to make the pages look more the same
+(03:53:46 PM) joanie: i.e. I have started making main pages with the a11y logo centered
+(03:53:52 PM) joanie: but the old pages lack that
+(03:54:09 PM) alibezz: got it... it`s good to make it look padronized
+(03:54:20 PM) joanie: and then we need a better main a11y page that points to all the good stuff (once it's cleaned up)
+(03:55:04 PM) joanie: Yeah, in general, I'd really like our team to have a 'professional' appearance
+(03:55:06 PM) ***alibezz takes notes
+(03:55:16 PM) alibezz: you bet!
+(03:55:20 PM) alibezz: it misses it.
+(03:55:32 PM) alibezz: and all a11y main products should somehow look padronized too
+(03:55:33 PM) joanie: it's good in general (we can find stuff, we look more credible to funders)
+(03:55:49 PM) joanie: yeah, the Orca wiki was a user endeavor
+(03:55:57 PM) joanie: so I started an official project page
+(03:56:19 PM) joanie: http://projects.gnome.org/orca/
+(03:56:25 PM) joanie: and need to move Orca stuff over to it
+(03:56:32 PM) joanie: but I already know what I want to do there
+(03:56:39 PM) joanie: and the Orca wiki has a crazy number of pages
+(03:57:55 PM) alibezz: got it
+(03:58:02 PM) alibezz: well, I guess that`s it
+(03:58:13 PM) alibezz: I already took notes about it and now I`ll be afk for a while
+(03:58:18 PM) alibezz: see you later, Joanie!
+(03:58:21 PM) alibezz: Thanks a lot!!!!
+(03:59:38 PM) joanie: take care
+(03:59:40 PM) joanie: and thanks!!
